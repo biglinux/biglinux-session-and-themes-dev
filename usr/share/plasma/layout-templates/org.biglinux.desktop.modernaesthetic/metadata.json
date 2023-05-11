@@ -1,0 +1,23 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "dg2003gh@gmail.com",
+                "Name": "Douglas Gabriel"
+            }
+        ],
+        "Category": "",
+        "EnabledByDefault": true,
+        "Id": "org.biglinux.desktop.modernaesthetic",
+        "License": "LGPLv2+",
+        "Name": "Modern Aesthetic",
+        "ServiceTypes": [
+            "Plasma/LayoutTemplate"
+        ],
+        "Website": "https://github.com/biglinux/"
+    },
+    "X-Plasma-ContainmentCategories": [
+        "panel"
+    ],
+    "X-Plasma-Shell": "plasmashell"
+}

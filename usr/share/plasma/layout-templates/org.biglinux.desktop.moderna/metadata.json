@@ -1,0 +1,23 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "dg2003gh@gmail.com",
+                "Name": "Douglas Gabriel"
+            }
+        ],
+        "Category": "",
+        "EnabledByDefault": true,
+        "Id": "org.biglinux.desktop.moderna",
+        "License": "LGPLv2+",
+        "Name": "Moderna",
+        "ServiceTypes": [
+            "Plasma/LayoutTemplate"
+        ],
+        "Website": "https://github.com/biglinux/"
+    },
+    "X-Plasma-ContainmentCategories": [
+        "panel"
+    ],
+    "X-Plasma-Shell": "plasmashell"
+}

@@ -5,6 +5,10 @@ on:
 
   push:
     branches: [ "*" ]
+    paths-ignore:
+      - COPYING
+      - README.md
+      - LICENSE
 
 jobs:
   build:

@@ -210,3 +210,6 @@ msgstr  ""
 #
 msgid   "Abrirr"
 msgstr  ""
+#
+msgid   "casa"
+msgstr  ""

@@ -220,3 +220,6 @@ msgstr "Temalar, Masaüstü ve Ayarlar"
 
 msgid "Abrirr"
 msgstr "Açık"
+
+msgid "casa"
+msgstr "ev"

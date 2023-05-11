@@ -220,3 +220,6 @@ msgstr "Motívy, pracovná plocha a nastavenia"
 
 msgid "Abrirr"
 msgstr "Otvorený"
+
+msgid "casa"
+msgstr "dom"

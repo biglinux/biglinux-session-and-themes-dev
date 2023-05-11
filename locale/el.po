@@ -222,3 +222,6 @@ msgstr "Θέματα, επιφάνεια εργασίας και ρυθμίσε�
 
 msgid "Abrirr"
 msgstr "Ανοίγω"
+
+msgid "casa"
+msgstr "σπίτι"

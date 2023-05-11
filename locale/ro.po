@@ -220,3 +220,6 @@ msgstr "Teme, desktop și setări"
 
 msgid "Abrirr"
 msgstr "Deschide"
+
+msgid "casa"
+msgstr "casă"

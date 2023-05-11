@@ -220,3 +220,6 @@ msgstr "Teemat, työpöytä ja asetukset"
 
 msgid "Abrirr"
 msgstr "Avata"
+
+msgid "casa"
+msgstr "talo"

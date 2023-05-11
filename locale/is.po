@@ -220,3 +220,6 @@ msgstr "Þemu, skjáborð og stillingar"
 
 msgid "Abrirr"
 msgstr "Opinn"
+
+msgid "casa"
+msgstr "Hús"

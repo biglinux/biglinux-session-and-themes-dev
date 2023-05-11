@@ -222,3 +222,6 @@ msgstr "Designs, Desktop und Einstellungen"
 
 msgid "Abrirr"
 msgstr "Offen"
+
+msgid "casa"
+msgstr "Haus"

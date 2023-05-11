@@ -220,3 +220,6 @@ msgstr "Kompozycje, pulpit i ustawienia"
 
 msgid "Abrirr"
 msgstr "Otwierać"
+
+msgid "casa"
+msgstr "dom"

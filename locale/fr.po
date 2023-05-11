@@ -222,3 +222,6 @@ msgstr "Thèmes, Bureau et Paramètres"
 
 msgid "Abrirr"
 msgstr "Ouvrir"
+
+msgid "casa"
+msgstr "maison"

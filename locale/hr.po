@@ -220,3 +220,6 @@ msgstr "Teme, radna površina i postavke"
 
 msgid "Abrirr"
 msgstr "Otvoren"
+
+msgid "casa"
+msgstr "Kuća"

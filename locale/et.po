@@ -220,3 +220,6 @@ msgstr "Kujundused, töölaud ja sätted"
 
 msgid "Abrirr"
 msgstr "Avama"
+
+msgid "casa"
+msgstr "house"

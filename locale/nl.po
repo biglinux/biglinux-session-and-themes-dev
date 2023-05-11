@@ -220,3 +220,6 @@ msgstr "Thema's, bureaublad en instellingen"
 
 msgid "Abrirr"
 msgstr "Openen"
+
+msgid "casa"
+msgstr "huis"

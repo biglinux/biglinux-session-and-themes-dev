@@ -214,3 +214,6 @@ msgstr "主题、桌面和设置"
 
 msgid "Abrirr"
 msgstr "打开"
+
+msgid "casa"
+msgstr "房子"

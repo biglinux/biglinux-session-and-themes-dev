@@ -220,3 +220,6 @@ msgstr "Temi, desktop e impostazioni"
 
 msgid "Abrirr"
 msgstr "Aperto"
+
+msgid "casa"
+msgstr "casa"

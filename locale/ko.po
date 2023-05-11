@@ -214,3 +214,6 @@ msgstr "테마, 바탕 화면 및 설정"
 
 msgid "Abrirr"
 msgstr "열다"
+
+msgid "casa"
+msgstr "집"

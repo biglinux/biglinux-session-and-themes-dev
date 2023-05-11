@@ -222,3 +222,6 @@ msgstr "Teman, skrivbord och inställningar"
 
 msgid "Abrirr"
 msgstr "Öppna"
+
+msgid "casa"
+msgstr "hus"

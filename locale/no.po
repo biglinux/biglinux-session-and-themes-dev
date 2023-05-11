@@ -220,3 +220,6 @@ msgstr "Temaer, skrivebord og innstillinger"
 
 msgid "Abrirr"
 msgstr "Åpen"
+
+msgid "casa"
+msgstr "hus"

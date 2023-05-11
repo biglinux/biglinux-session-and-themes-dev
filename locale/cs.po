@@ -218,3 +218,6 @@ msgstr "Motivy, plocha a nastavení"
 
 msgid "Abrirr"
 msgstr "Otevřený"
+
+msgid "casa"
+msgstr "dům"

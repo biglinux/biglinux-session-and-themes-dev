@@ -216,3 +216,6 @@ msgstr "ערכות נושא, שולחן עבודה והגדרות"
 
 msgid "Abrirr"
 msgstr "פתוח"
+
+msgid "casa"
+msgstr "בית"

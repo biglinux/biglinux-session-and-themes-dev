@@ -220,3 +220,6 @@ msgstr "Témák, asztal és beállítások"
 
 msgid "Abrirr"
 msgstr "Nyitott"
+
+msgid "casa"
+msgstr "ház"

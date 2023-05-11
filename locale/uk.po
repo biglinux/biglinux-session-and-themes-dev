@@ -220,3 +220,6 @@ msgstr "Теми, робочий стіл і налаштування"
 
 msgid "Abrirr"
 msgstr "Відкривати"
+
+msgid "casa"
+msgstr "дім"

@@ -219,3 +219,6 @@ msgstr ""
 
 msgid "Temas, Desktop e Ajustes"
 msgstr "Thèmes, Bureau et Paramètres"
+
+msgid "Abrirr"
+msgstr "Ouvrir"

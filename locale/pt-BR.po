@@ -288,3 +288,7 @@ msgstr ""
 #
 msgid "Temas, Desktop e Ajustes"
 msgstr "Temas, Desktop e Ajustes"
+
+#
+msgid "Abrirr"
+msgstr "Abrirr"

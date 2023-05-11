@@ -213,3 +213,6 @@ msgstr ""
 
 msgid "Temas, Desktop e Ajustes"
 msgstr "ערכות נושא, שולחן עבודה והגדרות"
+
+msgid "Abrirr"
+msgstr "פתוח"

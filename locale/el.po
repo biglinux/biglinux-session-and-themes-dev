@@ -219,3 +219,6 @@ msgstr ""
 
 msgid "Temas, Desktop e Ajustes"
 msgstr "Θέματα, επιφάνεια εργασίας και ρυθμίσεις"
+
+msgid "Abrirr"
+msgstr "Ανοίγω"

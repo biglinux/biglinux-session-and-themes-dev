@@ -211,3 +211,6 @@ msgstr ""
 
 msgid "Temas, Desktop e Ajustes"
 msgstr "主题、桌面和设置"
+
+msgid "Abrirr"
+msgstr "打开"

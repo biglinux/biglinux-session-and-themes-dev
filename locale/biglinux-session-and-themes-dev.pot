@@ -258,3 +258,7 @@ msgstr  ""
 #
 msgid   "Temas, Desktop e Ajustes"
 msgstr  ""
+
+#
+msgid   "Abrirr"
+msgstr  ""

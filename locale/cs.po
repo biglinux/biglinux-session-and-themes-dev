@@ -215,3 +215,6 @@ msgstr ""
 
 msgid "Temas, Desktop e Ajustes"
 msgstr "Motivy, plocha a nastavení"
+
+msgid "Abrirr"
+msgstr "Otevřený"

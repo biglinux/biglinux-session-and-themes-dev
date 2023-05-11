@@ -40,10 +40,6 @@ jobs:
           mv big-auto-translator/gettext_po_generator_github.sh .
           gitfolder=$(echo ${{ github.repository }} | rev | cut -d "/" -f1 | rev)
           bash gettext_po_generator_github.sh $gitfolder
-          
-      ## Tmate ##
-      #- name: Setup tmate session
-        #uses: mxschmitt/action-tmate@v3 
         
       - name: Update github
         run: |

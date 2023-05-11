@@ -1,0 +1,219 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes-dev package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-session-and-themes-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Будьте осторожны, вы потеряете доступ к SnapShots, вы уверены, что хотите скрыть личинку?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Будете ли вы знать, как вернуть Grub в случае неудачи?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Сможете ли вы получить доступ к SnapShots без доступа к графическому режиму?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Вы полностью уверены в этом приложении?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Подаете заявку, ждите..."
+
+msgid "Concluído!"
+msgstr "Договорились!"
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Если вы используете какой-либо браузер, перезапустите его, чтобы изменения вступили в силу."
+
+msgid "Desempenho em modo performance!"
+msgstr "Производительность в режиме перформанса!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Производительность в оптимизированном режиме!"
+
+msgid "Temas"
+msgstr "Темы"
+
+msgid "Desktop"
+msgstr "Настольный"
+
+msgid "Ajustes"
+msgstr "Параметры"
+
+msgid "Desempenho do desktop"
+msgstr "Производительность рабочего стола"
+
+msgid "Desempenho"
+msgstr "Производительность"
+
+msgid "Aceleração do navegador"
+msgstr "Ускорение браузера"
+
+msgid "Tema dos aplicativos"
+msgstr "Тема \"Приложения\""
+
+msgid "Abrir"
+msgstr "Открытый"
+
+msgid "Fechar"
+msgstr "Закрывать"
+
+msgid "Bordas arredondadas."
+msgstr "Закругленные края."
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
+"computadores<br>antigos ou ambientes virtualizados."
+msgstr ""
+"Эта тема имеет прозрачные пленки с эффектами, которые<br>Может замедлить работу системы на "
+"компьютерах<br>Старые или виртуализированные среды."
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "<b>Классические</b>, <b>новые</b> и <b>современные</b> работают лучше."
+
+msgid "Renderizar o desktop via software"
+msgstr "Рендеринг рабочего стола с помощью программного обеспечения"
+
+msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
+msgstr "(Это может быть полезно на старых компьютерах, но некоторые программы перестают работать)"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "Выберите программы для загрузки в память во время загрузки"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
+"causa lentidão. Escolha a opção desejada:"
+msgstr ""
+"Предварительная загрузка загружает программные файлы в память, чтобы они запускались быстро. "
+"Чрезмерное использование вызывает медлительность. Выберите нужный вариант:"
+
+msgid "Ligar RGB do teclado"
+msgstr "Включите RGB с клавиатуры"
+
+msgid "Automático"
+msgstr "Автоматически"
+
+msgid "Ativar"
+msgstr "Активировать"
+
+msgid "Desativar"
+msgstr "Отключить"
+
+msgid "Configurações do Brave"
+msgstr "Храбрые настройки"
+
+msgid "Escolha a opção desejada:"
+msgstr "Выберите нужный вариант:"
+
+msgid "Remover propagandas"
+msgstr "Удалить рекламу"
+
+msgid "Suportar criptomoedas"
+msgstr "Поддержка криптовалют"
+
+msgid "Usabilidade"
+msgstr "Юзабилити"
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "Кнопки окон с левой стороны"
+
+msgid "Rolagem do mouse invertida"
+msgstr "Перевернутая прокрутка мыши"
+
+msgid "Rolagem do touchpad invertida"
+msgstr "Перевернутая прокрутка сенсорной панели"
+
+msgid "Pesquisar arquivos"
+msgstr "Поиск файлов"
+
+msgid "Bloquear a edição da área de trabalho "
+msgstr "Блокировка редактирования рабочего стола "
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Скрыть диспетчер загрузки (GRUB)"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Активируйте NumLock при включении системы"
+
+msgid "Tema aplicado"
+msgstr "Примененная тема"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Чтобы завершить настройку, необходимо перезапустить сеанс."
+
+msgid "Configuração do Desktop"
+msgstr "Конфигурация рабочего стола"
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
+"configuração original?"
+msgstr ""
+"Вы использовали этот рабочий стол раньше, хотите восстановить его настройку или использовать "
+"исходную конфигурацию?"
+
+msgid "Sim"
+msgstr "Да"
+
+msgid "Não"
+msgstr "Нет"
+
+msgid "Original"
+msgstr "Исходный текст"
+
+msgid "Restaurar"
+msgstr "Восстанавливать"
+
+msgid "Desktop aplicado"
+msgstr "Прикладной рабочий стол"
+
+msgid "Modo performance"
+msgstr "Режим производительности"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS без fsync"
+
+msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
+msgstr "При использовании программного рендеринга снижается качество прозрачных пленок."
+
+msgid "Desempenho em modo normal!"
+msgstr "Производительность в нормальном режиме!"
+
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"Выбранная конфигурация рабочего стола уже использовалась в этой системе,\n"
+"Вы хотите восстановить конфигурацию, которая уже использовалась?\n"
+"\n"
+"Выберите Нет, чтобы использовать конфигурацию системы по умолчанию."
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Конфигурация применена!\n"
+"\n"
+"Выйдите из системы и войдите снова в систему\n"
+"чтобы настройка завершилась с\n"
+"быть примененным."
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Темы, рабочий стол и настройки"

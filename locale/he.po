@@ -1,0 +1,215 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes-dev package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-session-and-themes-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "היזהר שתאבד גישה ל- SnapShots, האם אתה בטוח שאתה רוצה להסתיר את הזבל?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "האם תדע כיצד להחזיר את Grub במקרה של כישלון?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "האם תוכל לגשת ל-SnapShots ללא גישה למצב גרפיקה?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "האם אתה בטוח לחלוטין ביישום זה?"
+
+msgid "Aplicando, aguarde..."
+msgstr "הגשת מועמדות, רגע..."
+
+msgid "Concluído!"
+msgstr "לעשות!"
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "אם אתה משתמש בדפדפן כלשהו, הפעל אותו מחדש כדי להחיל את השינויים."
+
+msgid "Desempenho em modo performance!"
+msgstr "ביצועים במצב ביצועים!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "ביצועים במצב אופטימלי!"
+
+msgid "Temas"
+msgstr "ערכות נושא"
+
+msgid "Desktop"
+msgstr "שולחן עבודה"
+
+msgid "Ajustes"
+msgstr "הגדרות"
+
+msgid "Desempenho do desktop"
+msgstr "ביצועי מחשב שולחני"
+
+msgid "Desempenho"
+msgstr "ביצועים"
+
+msgid "Aceleração do navegador"
+msgstr "האצת דפדפן"
+
+msgid "Tema dos aplicativos"
+msgstr "ערכת הנושא 'אפליקציות'"
+
+msgid "Abrir"
+msgstr "פתוח"
+
+msgid "Fechar"
+msgstr "קרוב"
+
+msgid "Bordas arredondadas."
+msgstr "קצוות מעוגלים."
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
+"computadores<br>antigos ou ambientes virtualizados."
+msgstr "לערכת נושא זו יש שקפים עם אפקטים ש<br>עלול להאט את המערכת במחשבים<br>סביבות ישנות או וירטואליות."
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "<b>קלאסי</b>, <b>חדש</b> <b>ומודרני</b> מבצעים טוב יותר."
+
+msgid "Renderizar o desktop via software"
+msgstr "עיבוד שולחן העבודה באמצעות תוכנה"
+
+msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
+msgstr "(אפשרות זו יכולה להיות שימושית במחשבים ישנים יותר, אך תוכניות מסוימות מפסיקות לפעול)"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "בחר תוכניות לטעינה לזיכרון במהלך האתחול"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
+"causa lentidão. Escolha a opção desejada:"
+msgstr ""
+"טעינה מראש טוענת קבצי תוכניות לזיכרון כדי שיתחילו לפעול במהירות. שימוש יתר גורם לאיטיות. בחר את "
+"האפשרות הרצויה:"
+
+msgid "Ligar RGB do teclado"
+msgstr "הפעלת RGB מהמקלדת"
+
+msgid "Automático"
+msgstr "אוטומטי"
+
+msgid "Ativar"
+msgstr "להפעיל"
+
+msgid "Desativar"
+msgstr "בטל"
+
+msgid "Configurações do Brave"
+msgstr "הגדרות אמיצות"
+
+msgid "Escolha a opção desejada:"
+msgstr "בחר את האפשרות הרצויה:"
+
+msgid "Remover propagandas"
+msgstr "הסרת פרסומות"
+
+msgid "Suportar criptomoedas"
+msgstr "תמיכה במטבעות קריפטוגרפיים"
+
+msgid "Usabilidade"
+msgstr "שימושיות"
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "לחצני חלון בצד שמאל"
+
+msgid "Rolagem do mouse invertida"
+msgstr "גלילת עכבר הפוכה"
+
+msgid "Rolagem do touchpad invertida"
+msgstr "גלילת לוח מגע הפוך"
+
+msgid "Pesquisar arquivos"
+msgstr "חיפוש קבצים"
+
+msgid "Bloquear a edição da área de trabalho "
+msgstr "חסימת עריכה בשולחן העבודה "
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "הסתר את מנהל האתחול (GRUB)"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "הפעל את NumLock בעת הפעלת המערכת"
+
+msgid "Tema aplicado"
+msgstr "ערכת הנושא הוחלה"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "עליך להפעיל מחדש את ההפעלה כדי להשלים את ההגדרה."
+
+msgid "Configuração do Desktop"
+msgstr "תצורת שולחן עבודה"
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
+"configuração original?"
+msgstr "האם השתמשת בשולחן עבודה זה בעבר, האם ברצונך לשחזר את ההתאמה האישית שלו או להשתמש בתצורה המקורית?"
+
+msgid "Sim"
+msgstr "כן"
+
+msgid "Não"
+msgstr "לא"
+
+msgid "Original"
+msgstr "מקורי"
+
+msgid "Restaurar"
+msgstr "לשחזר"
+
+msgid "Desktop aplicado"
+msgstr "שולחן עבודה יישומי"
+
+msgid "Modo performance"
+msgstr "מצב ביצועים"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS ללא fsync"
+
+msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
+msgstr "באמצעות עיבוד תוכנה, איכות השקפים מצטמצמת."
+
+msgid "Desempenho em modo normal!"
+msgstr "ביצועים במצב רגיל!"
+
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"תצורת שולחן העבודה שנבחרה כבר הייתה בשימוש במערכת זו,\n"
+"האם ברצונך לשחזר את התצורה שכבר נעשה בה שימוש?\n"
+"\n"
+"בחר לא כדי להשתמש בתצורת המערכת המוגדרת כברירת מחדל."
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"תצורה מיושמת!\n"
+"\n"
+"צא והתחבר שוב\n"
+"כך שהתצורה תסתיים מ\n"
+"להיות מיושם."
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "ערכות נושא, שולחן עבודה והגדרות"

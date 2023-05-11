@@ -1,0 +1,219 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes-dev package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-session-and-themes-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "SnapShots'a erişiminizi kaybedeceğinize dikkat edin, grub'u gizlemek istediğinizden emin misiniz?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Arıza durumunda Grub'u nasıl iade edeceğinizi biliyor musunuz?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Grafik moduna erişmeden SnapShots'a erişebilecek misiniz?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Bu uygulamadan tamamen emin misiniz?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Başvuruda bulunmak, beklemek..."
+
+msgid "Concluído!"
+msgstr "Yapılmış!"
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Herhangi bir tarayıcı kullanıyorsanız, değişiklikleri uygulamak için tarayıcıyı yeniden başlatın."
+
+msgid "Desempenho em modo performance!"
+msgstr "Performans modunda performans!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Optimize modda performans!"
+
+msgid "Temas"
+msgstr "Temalar"
+
+msgid "Desktop"
+msgstr "Masaüstü"
+
+msgid "Ajustes"
+msgstr "Ayarlar"
+
+msgid "Desempenho do desktop"
+msgstr "Masaüstü Performansı"
+
+msgid "Desempenho"
+msgstr "Performans"
+
+msgid "Aceleração do navegador"
+msgstr "Tarayıcı hızlandırma"
+
+msgid "Tema dos aplicativos"
+msgstr "Uygulamalar teması"
+
+msgid "Abrir"
+msgstr "Açık"
+
+msgid "Fechar"
+msgstr "Kapatmak"
+
+msgid "Bordas arredondadas."
+msgstr "Yuvarlatılmış kenarlar."
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
+"computadores<br>antigos ou ambientes virtualizados."
+msgstr ""
+"Bu tema, etkileri olan asetatlara sahiptir<br>bilgisayarlarda sistemi yavaşlatabilir<br>Eski veya "
+"sanallaştırılmış ortamlar."
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "<b>Klasik</b>, <b>Yeni</b> ve <b>Modern</b> daha iyi performans gösterir."
+
+msgid "Renderizar o desktop via software"
+msgstr "Masaüstünü yazılım aracılığıyla oluşturun"
+
+msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
+msgstr "(Eski bilgisayarlarda yararlı olabilir, ancak bazı programlar çalışmayı durdurur)"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "Önyükleme sırasında belleğe yüklenecek programları seçin"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
+"causa lentidão. Escolha a opção desejada:"
+msgstr ""
+"Preload, program dosyalarını belleğe yükler, böylece hızlı bir şekilde başlarlar. Aşırı kullanım "
+"yavaşlığa neden olur. İstediğiniz seçeneği belirleyin:"
+
+msgid "Ligar RGB do teclado"
+msgstr "RGB'yi klavyeden açma"
+
+msgid "Automático"
+msgstr "Otomatik"
+
+msgid "Ativar"
+msgstr "Etkinleştirmek"
+
+msgid "Desativar"
+msgstr "Devre dışı bırakmak"
+
+msgid "Configurações do Brave"
+msgstr "Cesur Ayarlar"
+
+msgid "Escolha a opção desejada:"
+msgstr "İstediğiniz seçeneği belirleyin:"
+
+msgid "Remover propagandas"
+msgstr "Reklamları kaldırma"
+
+msgid "Suportar criptomoedas"
+msgstr "Kripto para birimlerini destekleyin"
+
+msgid "Usabilidade"
+msgstr "Kullanılabilir -lik"
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "Sol taraftaki pencere düğmeleri"
+
+msgid "Rolagem do mouse invertida"
+msgstr "Ters çevrilmiş fare kaydırma"
+
+msgid "Rolagem do touchpad invertida"
+msgstr "Ters dokunmatik yüzey kaydırma"
+
+msgid "Pesquisar arquivos"
+msgstr "Dosya arama"
+
+msgid "Bloquear a edição da área de trabalho "
+msgstr "Masaüstü düzenlemeyi engelleme "
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Önyükleme Yöneticisi'ni Gizle (GRUB)"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Sistemi açarken NumLock'u etkinleştirin"
+
+msgid "Tema aplicado"
+msgstr "Uygulanan tema"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Kurulumu tamamlamak için oturumu yeniden başlatmanız gerekir."
+
+msgid "Configuração do Desktop"
+msgstr "Masaüstü Yapılandırması"
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
+"configuração original?"
+msgstr ""
+"Bu masaüstünü daha önce kullandınız mı, özelleştirmesini geri yüklemek mi yoksa orijinal "
+"yapılandırmayı kullanmak mı istiyorsunuz?"
+
+msgid "Sim"
+msgstr "Evet"
+
+msgid "Não"
+msgstr "Hayır"
+
+msgid "Original"
+msgstr "Özgün"
+
+msgid "Restaurar"
+msgstr "Geri yüklemek"
+
+msgid "Desktop aplicado"
+msgstr "Uygulamalı Masaüstü"
+
+msgid "Modo performance"
+msgstr "Performans Modu"
+
+msgid "BTRFS sem fsync"
+msgstr "Fsync olmadan BTRFS"
+
+msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
+msgstr "Yazılım oluşturma kullanılarak, asetatların kalitesi düşürülür."
+
+msgid "Desempenho em modo normal!"
+msgstr "Normal modda performans!"
+
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"Seçilen masaüstü yapılandırması bu sistemde zaten kullanılmış,\n"
+"Zaten kullanılmış olan yapılandırmayı geri yüklemek istiyor musunuz?\n"
+"\n"
+"Varsayılan sistem yapılandırmasını kullanmak için Hayır'ı seçin."
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Yapılandırma uygulandı!\n"
+"\n"
+"Oturumu kapatın ve tekrar giriş yapın\n"
+"böylece yapılandırma\n"
+"uygulanmalıdır."
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Temalar, Masaüstü ve Ayarlar"

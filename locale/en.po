@@ -1,0 +1,219 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes-dev package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-session-and-themes-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Be careful you will lose access to SnapShots, are you sure you want to hide the grub?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Will you know how to return Grub in case of failure?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Will you be able to access SnapShots without access to Graphics mode?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Are you completely sure of this application?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Applying, wait..."
+
+msgid "Concluído!"
+msgstr "Done!"
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "If you are using any browser, restart it to apply the changes."
+
+msgid "Desempenho em modo performance!"
+msgstr "Performance in performance mode!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Performance in optimized mode!"
+
+msgid "Temas"
+msgstr "Themes"
+
+msgid "Desktop"
+msgstr "Desktop"
+
+msgid "Ajustes"
+msgstr "Settings"
+
+msgid "Desempenho do desktop"
+msgstr "Desktop Performance"
+
+msgid "Desempenho"
+msgstr "Performance"
+
+msgid "Aceleração do navegador"
+msgstr "Browser acceleration"
+
+msgid "Tema dos aplicativos"
+msgstr "Apps theme"
+
+msgid "Abrir"
+msgstr "Open"
+
+msgid "Fechar"
+msgstr "Close"
+
+msgid "Bordas arredondadas."
+msgstr "Rounded edges."
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
+"computadores<br>antigos ou ambientes virtualizados."
+msgstr ""
+"This theme has transparencies with effects that<br>may slow down the system on computers<br>old or "
+"virtualized environments."
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "<b>Classic</b>, <b>New</b> and <b>Modern</b> perform better."
+
+msgid "Renderizar o desktop via software"
+msgstr "Render the desktop via software"
+
+msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
+msgstr "(It can be useful on older computers, but some programs stop working)"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "Choose programs to load into memory during boot"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
+"causa lentidão. Escolha a opção desejada:"
+msgstr ""
+"Preload loads program files into memory so they start quickly. Overuse causes slowness. Choose the "
+"option you want:"
+
+msgid "Ligar RGB do teclado"
+msgstr "Turn on RGB from the keyboard"
+
+msgid "Automático"
+msgstr "Automatic"
+
+msgid "Ativar"
+msgstr "Activate"
+
+msgid "Desativar"
+msgstr "Disable"
+
+msgid "Configurações do Brave"
+msgstr "Brave Settings"
+
+msgid "Escolha a opção desejada:"
+msgstr "Choose the option you want:"
+
+msgid "Remover propagandas"
+msgstr "Remove advertisements"
+
+msgid "Suportar criptomoedas"
+msgstr "Support cryptocurrencies"
+
+msgid "Usabilidade"
+msgstr "Usability"
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "Window buttons on the left side"
+
+msgid "Rolagem do mouse invertida"
+msgstr "Inverted mouse scrolling"
+
+msgid "Rolagem do touchpad invertida"
+msgstr "Inverted touchpad scrolling"
+
+msgid "Pesquisar arquivos"
+msgstr "Search for files"
+
+msgid "Bloquear a edição da área de trabalho "
+msgstr "Block desktop editing "
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Hide Boot Manager (GRUB)"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Activate NumLock when powering on the system"
+
+msgid "Tema aplicado"
+msgstr "Theme applied"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "You must restart the session to complete the setup."
+
+msgid "Configuração do Desktop"
+msgstr "Desktop Configuration"
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
+"configuração original?"
+msgstr ""
+"Have you used this desktop before, do you want to restore its customization or use the original "
+"configuration?"
+
+msgid "Sim"
+msgstr "Yes"
+
+msgid "Não"
+msgstr "No"
+
+msgid "Original"
+msgstr "Original"
+
+msgid "Restaurar"
+msgstr "Restore"
+
+msgid "Desktop aplicado"
+msgstr "Applied Desktop"
+
+msgid "Modo performance"
+msgstr "Performance Mode"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS without fsync"
+
+msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
+msgstr "Using software rendering, the quality of the transparencies is reduced."
+
+msgid "Desempenho em modo normal!"
+msgstr "Performance in normal mode!"
+
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"The selected desktop configuration has already been used on this system,\n"
+"Do you want to restore the configuration that has already been used?\n"
+"\n"
+"Select No to use the default system configuration."
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Configuration applied!\n"
+"\n"
+"Sign out and log in again\n"
+"so that the configuration finishes from\n"
+"be applied."
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Themes, Desktop, and Settings"

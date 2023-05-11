@@ -1,0 +1,219 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes-dev package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-session-and-themes-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Aveți grijă că veți pierde accesul la SnapShots, sunteți sigur că doriți să ascundeți grub-ul?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Veți ști cum să returnați Grub în caz de eșec?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Veți putea accesa SnapShots fără acces la modul grafică?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Sunteți complet sigur de această aplicație?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Aplicând, așteptați..."
+
+msgid "Concluído!"
+msgstr "Făcut!"
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Dacă utilizați orice browser, reporniți-l pentru a aplica modificările."
+
+msgid "Desempenho em modo performance!"
+msgstr "Performanță în modul de performanță!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Performanță în modul optimizat!"
+
+msgid "Temas"
+msgstr "Teme"
+
+msgid "Desktop"
+msgstr "Desktop"
+
+msgid "Ajustes"
+msgstr "Setări"
+
+msgid "Desempenho do desktop"
+msgstr "Performanță desktop"
+
+msgid "Desempenho"
+msgstr "Performanță"
+
+msgid "Aceleração do navegador"
+msgstr "Accelerarea browserului"
+
+msgid "Tema dos aplicativos"
+msgstr "Tema Aplicații"
+
+msgid "Abrir"
+msgstr "Deschide"
+
+msgid "Fechar"
+msgstr "Închide"
+
+msgid "Bordas arredondadas."
+msgstr "Margini rotunjite."
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
+"computadores<br>antigos ou ambientes virtualizados."
+msgstr ""
+"Această temă are transparente cu efecte care<br>poate încetini sistemul pe computere<br>medii vechi "
+"sau virtualizate."
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "<b>Clasic</b>, <b>nou</b> și <b>modern</b> funcționează mai bine."
+
+msgid "Renderizar o desktop via software"
+msgstr "Randați desktopul prin intermediul software-ului"
+
+msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
+msgstr "(Poate fi util pe computere mai vechi, dar unele programe nu mai funcționează)"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "Alegeți programele de încărcat în memorie în timpul pornirii"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
+"causa lentidão. Escolha a opção desejada:"
+msgstr ""
+"Preîncărcați fișierele programului în memorie, astfel încât acestea să înceapă rapid. "
+"Suprasolicitarea provoacă lentoare. Alegeți opțiunea dorită:"
+
+msgid "Ligar RGB do teclado"
+msgstr "Activarea RGB de la tastatură"
+
+msgid "Automático"
+msgstr "Automat"
+
+msgid "Ativar"
+msgstr "Activa"
+
+msgid "Desativar"
+msgstr "Dezactiva"
+
+msgid "Configurações do Brave"
+msgstr "Setări curajoase"
+
+msgid "Escolha a opção desejada:"
+msgstr "Alegeți opțiunea dorită:"
+
+msgid "Remover propagandas"
+msgstr "Eliminarea reclamelor"
+
+msgid "Suportar criptomoedas"
+msgstr "Suport pentru criptomonede"
+
+msgid "Usabilidade"
+msgstr "Utilizabilitate"
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "Butoanele ferestrelor din partea stângă"
+
+msgid "Rolagem do mouse invertida"
+msgstr "Defilare inversată a mouse-ului"
+
+msgid "Rolagem do touchpad invertida"
+msgstr "Defilare touchpad inversat"
+
+msgid "Pesquisar arquivos"
+msgstr "Căutarea fișierelor"
+
+msgid "Bloquear a edição da área de trabalho "
+msgstr "Blocați editarea pe desktop "
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Ascunde Boot Manager (GRUB)"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Activarea NumLock la alimentarea sistemului"
+
+msgid "Tema aplicado"
+msgstr "Tema aplicată"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Trebuie să reporniți sesiunea pentru a finaliza configurarea."
+
+msgid "Configuração do Desktop"
+msgstr "Configurare desktop"
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
+"configuração original?"
+msgstr ""
+"Ați folosit acest desktop înainte, doriți să restaurați personalizarea acestuia sau să utilizați "
+"configurația originală?"
+
+msgid "Sim"
+msgstr "Da"
+
+msgid "Não"
+msgstr "Nu"
+
+msgid "Original"
+msgstr "Original"
+
+msgid "Restaurar"
+msgstr "Restaura"
+
+msgid "Desktop aplicado"
+msgstr "Desktop aplicat"
+
+msgid "Modo performance"
+msgstr "Mod de performanță"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS fără fsync"
+
+msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
+msgstr "Folosind redarea software-ului, calitatea transparențelor este redusă."
+
+msgid "Desempenho em modo normal!"
+msgstr "Performanță în modul normal!"
+
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"Configurația desktop selectată a fost deja utilizată pe acest sistem,\n"
+"Doriți să restaurați configurația care a fost deja utilizată?\n"
+"\n"
+"Selectați Nu pentru a utiliza configurația implicită a sistemului."
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Configurație aplicată!\n"
+"\n"
+"Deconectați-vă și conectați-vă din nou\n"
+"astfel încât configurația să se termine de la\n"
+"să fie aplicate."
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Teme, desktop și setări"

@@ -1,0 +1,219 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes-dev package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-session-and-themes-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Vær forsiktig så du mister tilgangen til SnapShots, er du sikker på at du vil skjule grub?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Vil du vite hvordan du returnerer Grub i tilfelle feil?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Vil du kunne få tilgang til øyeblikksbilder uten tilgang til grafikkmodus?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Er du helt sikker på denne applikasjonen?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Søker, vent..."
+
+msgid "Concluído!"
+msgstr "Gjort!"
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Hvis du bruker en nettleser, start den på nytt for å bruke endringene."
+
+msgid "Desempenho em modo performance!"
+msgstr "Ytelse i ytelsesmodus!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Ytelse i optimalisert modus!"
+
+msgid "Temas"
+msgstr "Temaer"
+
+msgid "Desktop"
+msgstr "Skrivebord"
+
+msgid "Ajustes"
+msgstr "Innstillinger"
+
+msgid "Desempenho do desktop"
+msgstr "Stasjonær ytelse"
+
+msgid "Desempenho"
+msgstr "Prestasjon"
+
+msgid "Aceleração do navegador"
+msgstr "Nettleser akselerasjon"
+
+msgid "Tema dos aplicativos"
+msgstr "Apper-tema"
+
+msgid "Abrir"
+msgstr "Åpen"
+
+msgid "Fechar"
+msgstr "Lukke"
+
+msgid "Bordas arredondadas."
+msgstr "Avrundede kanter."
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
+"computadores<br>antigos ou ambientes virtualizados."
+msgstr ""
+"Dette temaet har transparenter med effekter som<br>kan bremse systemet på datamaskiner<br>gamle "
+"eller virtualiserte miljøer."
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "<b>Klassisk</b>, <b>nytt</b> og <b>moderne</b> presterer bedre."
+
+msgid "Renderizar o desktop via software"
+msgstr "Gjengi skrivebordet via programvare"
+
+msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
+msgstr "(Det kan være nyttig på eldre datamaskiner, men noen programmer slutter å fungere)"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "Velg programmer som skal lastes inn i minnet under oppstart"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
+"causa lentidão. Escolha a opção desejada:"
+msgstr ""
+"Preload laster programfiler inn i minnet slik at de starter raskt. Overforbruk forårsaker treghet. "
+"Velg alternativet du vil bruke:"
+
+msgid "Ligar RGB do teclado"
+msgstr "Slå på RGB fra tastaturet"
+
+msgid "Automático"
+msgstr "Automatisk"
+
+msgid "Ativar"
+msgstr "Aktivere"
+
+msgid "Desativar"
+msgstr "Deaktivere"
+
+msgid "Configurações do Brave"
+msgstr "Brave innstillinger"
+
+msgid "Escolha a opção desejada:"
+msgstr "Velg alternativet du vil bruke:"
+
+msgid "Remover propagandas"
+msgstr "Fjern annonser"
+
+msgid "Suportar criptomoedas"
+msgstr "Støtt kryptovalutaer"
+
+msgid "Usabilidade"
+msgstr "Brukervennlighet"
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "Vindusknapper på venstre side"
+
+msgid "Rolagem do mouse invertida"
+msgstr "Invertert muserulling"
+
+msgid "Rolagem do touchpad invertida"
+msgstr "Invertert pekeplaterulling"
+
+msgid "Pesquisar arquivos"
+msgstr "Søke etter filer"
+
+msgid "Bloquear a edição da área de trabalho "
+msgstr "Blokker skrivebordsredigering "
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Skjul Boot Manager (GRUB)"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Aktiver NumLock når du slår på systemet"
+
+msgid "Tema aplicado"
+msgstr "Tema brukt"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Du må starte økten på nytt for å fullføre oppsettet."
+
+msgid "Configuração do Desktop"
+msgstr "Konfigurasjon av skrivebord"
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
+"configuração original?"
+msgstr ""
+"Har du brukt dette skrivebordet før, vil du gjenopprette tilpasningen eller bruke den opprinnelige "
+"konfigurasjonen?"
+
+msgid "Sim"
+msgstr "Ja"
+
+msgid "Não"
+msgstr "Nei"
+
+msgid "Original"
+msgstr "Original"
+
+msgid "Restaurar"
+msgstr "Gjenopprette"
+
+msgid "Desktop aplicado"
+msgstr "Brukt skrivebord"
+
+msgid "Modo performance"
+msgstr "Ytelsesmodus"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS uten fsync"
+
+msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
+msgstr "Ved hjelp av programvaregjengivelse reduseres kvaliteten på transparentene."
+
+msgid "Desempenho em modo normal!"
+msgstr "Ytelse i normal modus!"
+
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"Den valgte skrivebordskonfigurasjonen er allerede brukt på dette systemet,\n"
+"Vil du gjenopprette konfigurasjonen som allerede er brukt?\n"
+"\n"
+"Velg Nei for å bruke standard systemkonfigurasjon."
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Konfigurasjon brukt!\n"
+"\n"
+"Logg av og logg på igjen\n"
+"slik at konfigurasjonen fullføres fra\n"
+"brukes."
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Temaer, skrivebord og innstillinger"

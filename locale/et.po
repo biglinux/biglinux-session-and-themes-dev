@@ -1,0 +1,219 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes-dev package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-session-and-themes-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Olge ettevaatlik, et kaotate juurdepääsu SnapShotsile, kas olete kindel, et soovite grubi varjata?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Kas teate, kuidas Grubi ebaõnnestumise korral tagastada?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Kas pääsete SnapShotsile juurde ilma graafikarežiimile juurdepääsuta?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Kas olete selles rakenduses täiesti kindel?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Kandideerimine, oota..."
+
+msgid "Concluído!"
+msgstr "Teinud!"
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Kui kasutate mõnda brauserit, taaskäivitage see muudatuste rakendamiseks."
+
+msgid "Desempenho em modo performance!"
+msgstr "Jõudlus jõudlusrežiimis!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Jõudlus optimeeritud režiimis!"
+
+msgid "Temas"
+msgstr "Teemad"
+
+msgid "Desktop"
+msgstr "Töölaua"
+
+msgid "Ajustes"
+msgstr "Seaded"
+
+msgid "Desempenho do desktop"
+msgstr "Töölaua jõudlus"
+
+msgid "Desempenho"
+msgstr "Jõudlust"
+
+msgid "Aceleração do navegador"
+msgstr "Brauseri kiirendus"
+
+msgid "Tema dos aplicativos"
+msgstr "Rakenduste kujundus"
+
+msgid "Abrir"
+msgstr "Avama"
+
+msgid "Fechar"
+msgstr "Sulgema"
+
+msgid "Bordas arredondadas."
+msgstr "Ümardatud servad."
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
+"computadores<br>antigos ou ambientes virtualizados."
+msgstr ""
+"Sellel teemal on läbipaistvus efektidega, mis<br>võib aeglustada süsteemi arvutites<br>vanad või "
+"virtualiseeritud keskkonnad."
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "<b>Klassikaline</b>, <b>uus</b> ja <b>kaasaegne</b> toimivad paremini."
+
+msgid "Renderizar o desktop via software"
+msgstr "Renderdage töölaud tarkvara kaudu"
+
+msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
+msgstr "(See võib olla kasulik vanemates arvutites, kuid mõned programmid ei tööta)"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "Valige programmid, mida alglaadimise ajal mällu laadida"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
+"causa lentidão. Escolha a opção desejada:"
+msgstr ""
+"Eellaadimine laadib programmifailid mällu, et need kiiresti käivituksid. Liigne kasutamine "
+"põhjustab aeglust. Valige soovitud suvand."
+
+msgid "Ligar RGB do teclado"
+msgstr "Lülitage RGB klaviatuurilt sisse"
+
+msgid "Automático"
+msgstr "Automaatne"
+
+msgid "Ativar"
+msgstr "Aktiveerima"
+
+msgid "Desativar"
+msgstr "Keelata"
+
+msgid "Configurações do Brave"
+msgstr "Julged seaded"
+
+msgid "Escolha a opção desejada:"
+msgstr "Valige soovitud suvand."
+
+msgid "Remover propagandas"
+msgstr "Eemaldage reklaamid"
+
+msgid "Suportar criptomoedas"
+msgstr "Toetage krüptovaluutasid"
+
+msgid "Usabilidade"
+msgstr "Kasutatavus"
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "Akna nupud vasakul küljel"
+
+msgid "Rolagem do mouse invertida"
+msgstr "Ümberpööratud hiire kerimine"
+
+msgid "Rolagem do touchpad invertida"
+msgstr "Ümberpööratud puuteplaadi kerimine"
+
+msgid "Pesquisar arquivos"
+msgstr "Otsige faile"
+
+msgid "Bloquear a edição da área de trabalho "
+msgstr "Töölaua redigeerimise blokeerimine "
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Peida alglaadimishaldur (GRUB)"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Aktiveerige NumLock süsteemi sisselülitamisel"
+
+msgid "Tema aplicado"
+msgstr "Rakendatud kujundus"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Seadistamise lõpuleviimiseks peate seansi taaskäivitama."
+
+msgid "Configuração do Desktop"
+msgstr "Töölaua konfiguratsioon"
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
+"configuração original?"
+msgstr ""
+"Kas olete seda töölauda varem kasutanud, kas soovite selle kohandamise taastada või kasutada algset "
+"konfiguratsiooni?"
+
+msgid "Sim"
+msgstr "Jah"
+
+msgid "Não"
+msgstr "Ei"
+
+msgid "Original"
+msgstr "Originaal"
+
+msgid "Restaurar"
+msgstr "Taastada"
+
+msgid "Desktop aplicado"
+msgstr "Rakendatud töölaud"
+
+msgid "Modo performance"
+msgstr "Toimivuse režiim"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS ilma fsyncita"
+
+msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
+msgstr "Tarkvara renderdamise abil väheneb läbipaistvuse kvaliteet."
+
+msgid "Desempenho em modo normal!"
+msgstr "Jõudlus tavarežiimis!"
+
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"Valitud töölaua konfiguratsiooni on selles süsteemis juba kasutatud,\n"
+"Kas soovite juba kasutatud konfiguratsiooni taastada?\n"
+"\n"
+"Süsteemi vaikekonfiguratsiooni kasutamiseks valige Ei."
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Konfiguratsioon rakendatud!\n"
+"\n"
+"Logi välja ja logi uuesti sisse\n"
+"nii, et konfiguratsioon lõpeb\n"
+"rakendada."
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Kujundused, töölaud ja sätted"

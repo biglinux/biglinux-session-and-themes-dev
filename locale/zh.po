@@ -1,0 +1,213 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes-dev package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-session-and-themes-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "小心您将无法访问SnapShots，您确定要隐藏grub吗？"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "您知道如何在发生故障时返回 Grub 吗？"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "您是否能够在不访问图形模式的情况下访问快照？"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "您完全确定此应用程序吗？"
+
+msgid "Aplicando, aguarde..."
+msgstr "正在申请，等待..."
+
+msgid "Concluído!"
+msgstr "做！"
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "如果您使用的是任何浏览器，请重新启动它以应用更改。"
+
+msgid "Desempenho em modo performance!"
+msgstr "性能模式下的性能！"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "优化模式下的性能！"
+
+msgid "Temas"
+msgstr "主题"
+
+msgid "Desktop"
+msgstr "桌面"
+
+msgid "Ajustes"
+msgstr "设置"
+
+msgid "Desempenho do desktop"
+msgstr "桌面性能"
+
+msgid "Desempenho"
+msgstr "性能"
+
+msgid "Aceleração do navegador"
+msgstr "浏览器加速"
+
+msgid "Tema dos aplicativos"
+msgstr "“应用”主题"
+
+msgid "Abrir"
+msgstr "打开"
+
+msgid "Fechar"
+msgstr "关闭"
+
+msgid "Bordas arredondadas."
+msgstr "圆角边缘。"
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
+"computadores<br>antigos ou ambientes virtualizados."
+msgstr "这个主题具有透明胶片，其效果是<br>可能会降低计算机上的系统速度<br>旧环境或虚拟化环境。"
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "<b>经典</b>、<b>新和</b><b>现代</b>表现更好。"
+
+msgid "Renderizar o desktop via software"
+msgstr "通过软件渲染桌面"
+
+msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
+msgstr "（它在旧计算机上可能很有用，但某些程序停止工作）"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "选择要在启动期间加载到内存中的程序"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
+"causa lentidão. Escolha a opção desejada:"
+msgstr "预加载将程序文件加载到内存中，以便它们快速启动。过度使用会导致缓慢。选择所需的选项："
+
+msgid "Ligar RGB do teclado"
+msgstr "从键盘打开 RGB"
+
+msgid "Automático"
+msgstr "自动"
+
+msgid "Ativar"
+msgstr "激活"
+
+msgid "Desativar"
+msgstr "禁用"
+
+msgid "Configurações do Brave"
+msgstr "勇敢的设定"
+
+msgid "Escolha a opção desejada:"
+msgstr "选择所需的选项："
+
+msgid "Remover propagandas"
+msgstr "删除广告"
+
+msgid "Suportar criptomoedas"
+msgstr "支持加密货币"
+
+msgid "Usabilidade"
+msgstr "可用性"
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "左侧的窗口按钮"
+
+msgid "Rolagem do mouse invertida"
+msgstr "反转鼠标滚动"
+
+msgid "Rolagem do touchpad invertida"
+msgstr "反转触摸板滚动"
+
+msgid "Pesquisar arquivos"
+msgstr "搜索文件"
+
+msgid "Bloquear a edição da área de trabalho "
+msgstr "阻止桌面编辑 "
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "隐藏引导管理器 （GRUB）"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "打开系统电源时激活数字锁定"
+
+msgid "Tema aplicado"
+msgstr "应用的主题"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "您必须重新启动会话才能完成设置。"
+
+msgid "Configuração do Desktop"
+msgstr "桌面配置"
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
+"configuração original?"
+msgstr "您以前是否使用过此桌面，是要恢复其自定义还是使用原始配置？"
+
+msgid "Sim"
+msgstr "是的"
+
+msgid "Não"
+msgstr "不"
+
+msgid "Original"
+msgstr "源语言"
+
+msgid "Restaurar"
+msgstr "恢复"
+
+msgid "Desktop aplicado"
+msgstr "应用桌面"
+
+msgid "Modo performance"
+msgstr "性能模式"
+
+msgid "BTRFS sem fsync"
+msgstr "不带同步的BTRFS"
+
+msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
+msgstr "使用软件渲染，透明度的质量会降低。"
+
+msgid "Desempenho em modo normal!"
+msgstr "正常模式下的性能！"
+
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"选定的桌面配置已在此系统上使用，\n"
+"是否要还原已使用的配置？\n"
+"\n"
+"选择“否”以使用默认系统配置。"
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"配置已应用！\n"
+"\n"
+"注销并重新登录\n"
+"以便配置从\n"
+"被应用。"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "主题、桌面和设置"

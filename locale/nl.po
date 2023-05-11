@@ -1,0 +1,219 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes-dev package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-session-and-themes-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Pas op dat je de toegang tot SnapShots verliest, weet je zeker dat je de grub wilt verbergen?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Weet u hoe u Grub kunt retourneren in geval van een storing?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Heb je toegang tot SnapShots zonder toegang tot de grafische modus?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Ben je helemaal zeker van deze toepassing?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Solliciteren, wachten..."
+
+msgid "Concluído!"
+msgstr "Klaar!"
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Als u een browser gebruikt, start u deze opnieuw op om de wijzigingen toe te passen."
+
+msgid "Desempenho em modo performance!"
+msgstr "Prestaties in de prestatiemodus!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Prestaties in geoptimaliseerde modus!"
+
+msgid "Temas"
+msgstr "Thema 's"
+
+msgid "Desktop"
+msgstr "Bureaublad"
+
+msgid "Ajustes"
+msgstr "Instellingen"
+
+msgid "Desempenho do desktop"
+msgstr "Desktopprestaties"
+
+msgid "Desempenho"
+msgstr "Voorstelling"
+
+msgid "Aceleração do navegador"
+msgstr "Browserversnelling"
+
+msgid "Tema dos aplicativos"
+msgstr "Thema Apps"
+
+msgid "Abrir"
+msgstr "Openen"
+
+msgid "Fechar"
+msgstr "Sluiten"
+
+msgid "Bordas arredondadas."
+msgstr "Afgeronde randen."
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
+"computadores<br>antigos ou ambientes virtualizados."
+msgstr ""
+"Dit thema heeft transparanten met effecten die<br>kan het systeem op computers vertragen<br>oude of "
+"gevirtualiseerde omgevingen."
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "<b>Klassiek</b>, <b>Nieuw</b> en <b>Modern</b> presteren beter."
+
+msgid "Renderizar o desktop via software"
+msgstr "Render het bureaublad via software"
+
+msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
+msgstr "(Het kan handig zijn op oudere computers, maar sommige programma's werken niet meer)"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "Kies programma's om tijdens het opstarten in het geheugen te laden"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
+"causa lentidão. Escolha a opção desejada:"
+msgstr ""
+"Laadt programmabestanden vooraf in het geheugen, zodat ze snel starten. Overmatig gebruik "
+"veroorzaakt traagheid. Kies de gewenste optie:"
+
+msgid "Ligar RGB do teclado"
+msgstr "RGB inschakelen vanaf het toetsenbord"
+
+msgid "Automático"
+msgstr "Automatisch"
+
+msgid "Ativar"
+msgstr "Activeren"
+
+msgid "Desativar"
+msgstr "Uitschakelen"
+
+msgid "Configurações do Brave"
+msgstr "Dappere instellingen"
+
+msgid "Escolha a opção desejada:"
+msgstr "Kies de gewenste optie:"
+
+msgid "Remover propagandas"
+msgstr "Advertenties verwijderen"
+
+msgid "Suportar criptomoedas"
+msgstr "Ondersteuning cryptocurrencies"
+
+msgid "Usabilidade"
+msgstr "Bruikbaarheid"
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "Vensterknoppen aan de linkerkant"
+
+msgid "Rolagem do mouse invertida"
+msgstr "Omgekeerde muis scrollen"
+
+msgid "Rolagem do touchpad invertida"
+msgstr "Omgekeerd touchpad scrollen"
+
+msgid "Pesquisar arquivos"
+msgstr "Zoeken naar bestanden"
+
+msgid "Bloquear a edição da área de trabalho "
+msgstr "Bureaubladbewerking blokkeren "
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Verberg Boot Manager (GRUB)"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "NumLock activeren bij het inschakelen van het systeem"
+
+msgid "Tema aplicado"
+msgstr "Thema toegepast"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "U moet de sessie opnieuw starten om de installatie te voltooien."
+
+msgid "Configuração do Desktop"
+msgstr "Bureaubladconfiguratie"
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
+"configuração original?"
+msgstr ""
+"Heb je dit bureaublad eerder gebruikt, wil je de aanpassing ervan herstellen of de oorspronkelijke "
+"configuratie gebruiken?"
+
+msgid "Sim"
+msgstr "Ja"
+
+msgid "Não"
+msgstr "Nee"
+
+msgid "Original"
+msgstr "Origineel"
+
+msgid "Restaurar"
+msgstr "Herstellen"
+
+msgid "Desktop aplicado"
+msgstr "Toegepast bureaublad"
+
+msgid "Modo performance"
+msgstr "Prestatiemodus"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS zonder fsync"
+
+msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
+msgstr "Met behulp van softwarerendering wordt de kwaliteit van de transparanten verminderd."
+
+msgid "Desempenho em modo normal!"
+msgstr "Prestaties in normale modus!"
+
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"De geselecteerde bureaubladconfiguratie is al gebruikt op dit systeem,\n"
+"Wilt u de configuratie herstellen die al is gebruikt?\n"
+"\n"
+"Selecteer Nee om de standaardsysteemconfiguratie te gebruiken."
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Configuratie toegepast!\n"
+"\n"
+"Meld u af en log opnieuw in\n"
+"zodat de configuratie wordt voltooid vanaf\n"
+"worden toegepast."
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Thema's, bureaublad en instellingen"

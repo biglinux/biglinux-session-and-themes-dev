@@ -1,0 +1,221 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes-dev package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-session-and-themes-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Attention à perdre l’accès aux SnapShots, êtes-vous sûr de vouloir cacher la larve ?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Saurez-vous rendre Grub en cas d’échec ?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Pourrez-vous accéder à SnapShots sans accéder au mode graphique ?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Êtes-vous complètement sûr de cette application?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Postuler, attendre..."
+
+msgid "Concluído!"
+msgstr "Fait!"
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Si vous utilisez un navigateur, redémarrez-le pour appliquer les modifications."
+
+msgid "Desempenho em modo performance!"
+msgstr "Performance en mode performance !"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Performance en mode optimisé !"
+
+msgid "Temas"
+msgstr "Thèmes"
+
+msgid "Desktop"
+msgstr "Bureau"
+
+msgid "Ajustes"
+msgstr "Paramètres"
+
+msgid "Desempenho do desktop"
+msgstr "Performances des ordinateurs de bureau"
+
+msgid "Desempenho"
+msgstr "Performance"
+
+msgid "Aceleração do navegador"
+msgstr "Accélération du navigateur"
+
+msgid "Tema dos aplicativos"
+msgstr "Thème Applications"
+
+msgid "Abrir"
+msgstr "Ouvrir"
+
+msgid "Fechar"
+msgstr "Fermer"
+
+msgid "Bordas arredondadas."
+msgstr "Bords arrondis."
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
+"computadores<br>antigos ou ambientes virtualizados."
+msgstr ""
+"Ce thème a des transparences avec des effets qui<br>peut ralentir le système sur les "
+"ordinateurs<br>environnements anciens ou virtualisés."
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "<b>Classic</b>, <b>New</b> et <b>Modern</b> fonctionnent mieux."
+
+msgid "Renderizar o desktop via software"
+msgstr "Rendu du bureau via un logiciel"
+
+msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
+msgstr ""
+"(Il peut être utile sur les ordinateurs plus anciens, mais certains programmes cessent de "
+"fonctionner)"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "Choisir les programmes à charger en mémoire pendant le démarrage"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
+"causa lentidão. Escolha a opção desejada:"
+msgstr ""
+"Preload charge les fichiers programme en mémoire afin qu’ils démarrent rapidement. La "
+"surutilisation entraîne la lenteur. Choisissez l’option souhaitée :"
+
+msgid "Ligar RGB do teclado"
+msgstr "Activer RVB à partir du clavier"
+
+msgid "Automático"
+msgstr "Automatique"
+
+msgid "Ativar"
+msgstr "Activer"
+
+msgid "Desativar"
+msgstr "Désactiver"
+
+msgid "Configurações do Brave"
+msgstr "Paramètres Brave"
+
+msgid "Escolha a opção desejada:"
+msgstr "Choisissez l’option souhaitée :"
+
+msgid "Remover propagandas"
+msgstr "Supprimer des publicités"
+
+msgid "Suportar criptomoedas"
+msgstr "Soutenir les crypto-monnaies"
+
+msgid "Usabilidade"
+msgstr "Utilisabilité"
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "Boutons de fenêtre sur le côté gauche"
+
+msgid "Rolagem do mouse invertida"
+msgstr "Défilement inversé de la souris"
+
+msgid "Rolagem do touchpad invertida"
+msgstr "Défilement du pavé tactile inversé"
+
+msgid "Pesquisar arquivos"
+msgstr "Rechercher des fichiers"
+
+msgid "Bloquear a edição da área de trabalho "
+msgstr "Bloquer l’édition du bureau "
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Masquer le gestionnaire de démarrage (GRUB)"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Activer NumLock lors de la mise sous tension du système"
+
+msgid "Tema aplicado"
+msgstr "Thème appliqué"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Vous devez redémarrer la session pour terminer l’installation."
+
+msgid "Configuração do Desktop"
+msgstr "Configuration du bureau"
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
+"configuração original?"
+msgstr ""
+"Avez-vous déjà utilisé ce bureau, souhaitez-vous restaurer sa personnalisation ou utiliser la "
+"configuration d’origine?"
+
+msgid "Sim"
+msgstr "Oui"
+
+msgid "Não"
+msgstr "Non"
+
+msgid "Original"
+msgstr "Langue source"
+
+msgid "Restaurar"
+msgstr "Restaurer"
+
+msgid "Desktop aplicado"
+msgstr "Bureau appliqué"
+
+msgid "Modo performance"
+msgstr "Performance Mode"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS sans fsync"
+
+msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
+msgstr "En utilisant le rendu logiciel, la qualité des transparences est réduite."
+
+msgid "Desempenho em modo normal!"
+msgstr "Performance en mode normal !"
+
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"La configuration de bureau sélectionnée a déjà été utilisée sur ce système,\n"
+"Voulez-vous restaurer la configuration qui a déjà été utilisée ?\n"
+"\n"
+"Sélectionnez Non pour utiliser la configuration système par défaut."
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Configuration appliquée !\n"
+"\n"
+"Déconnectez-vous et reconnectez-vous\n"
+"afin que la configuration se termine à partir de\n"
+"être appliqué."
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Thèmes, Bureau et Paramètres"

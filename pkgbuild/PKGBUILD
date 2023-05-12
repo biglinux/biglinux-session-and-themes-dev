@@ -5,8 +5,10 @@ pkgver=$(date +%y.%m.%d)
 pkgrel=$(date +%H%M)
 arch=('any')
 license=('GPL')
-depends=('bigsudo' 'plasma-workspace'  'klassy' 'plasma-systray-latte-tweaks-git' 'plasma5-applets-latte-spacer' 'plasma5-applets-eventcalendar' 'biglinux-metapackage' 'kwin-scripts-forceblur' 'biglinux-neofetch')
-conflicts=('biglinux-themes' 'biglinux-multi-kde' 'biglinux-session-and-themes')
+depends=('bigsudo' 'plasma-workspace' 'klassy' 'plasma5-applets-eventcalendar' 'biglinux-metapackage' 'kwin-scripts-forceblur' 'biglinux-neofetch' 'cantarell-fonts' 'ttf-comfortaa' 'ttf-font-awesome' 'ttf-inconsolata' 'plasma-framework' 'bigbashview' 'breeze-gtk' 'ttf-croscore' 'xtermset' 'wmctrl' 'ttf-comfortaa' 'ttf-ubuntu-font-family' 'fluent-icon-theme-git' 'fluent-kde-theme-git' 'fluent-gtk-theme-git' 'plasma5-applets-presentwindows' 'plasma5-applets-virtual-desktop-bar-git' 'latte-dock' 'plasma5-applets-window-appmenu' 'plasma-applet-win7showdesktop-git' 'plasma5-applets-netspeed' 'libdbusmenu-gtk2' 'plasma5-applets-window-buttons' 'plasma5-applets-window-title' 'plasma-appsmenu-biglinux')
+#lightly-git
+
+conflicts=('biglinux-themes' 'biglinux-multi-kde' 'biglinux-session-and-themes' 'biglinux-themes-gui')
 url="https://github.com/biglinux/${pkgname}"
 pkgdesc="Essential package to BigLinux KDE session"
 source=("git+https://github.com/biglinux/${pkgname}.git")

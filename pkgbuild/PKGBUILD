@@ -5,7 +5,7 @@ pkgver=$(date +%y.%m.%d)
 pkgrel=$(date +%H%M)
 arch=('any')
 license=('GPL')
-depends=('bigsudo' 'plasma-workspace' 'plasma-systray-latte-tweaks-git' 'klassy' 'plasma5-applets-latte-spacer' 'latte-dock>=0.10.9-2' 'plasma5-applets-eventcalendar' 'biglinux-metapackage' 'kwin-scripts-forceblur' 'biglinux-neofetch')
+depends=('bigsudo' 'plasma-workspace'  'klassy' 'plasma-systray-latte-tweaks-git' 'plasma5-applets-latte-spacer' 'plasma5-applets-eventcalendar' 'biglinux-metapackage' 'kwin-scripts-forceblur' 'biglinux-neofetch')
 conflicts=('biglinux-themes' 'biglinux-multi-kde' 'biglinux-session-and-themes')
 url="https://github.com/biglinux/${pkgname}"
 pkgdesc="Essential package to BigLinux KDE session"

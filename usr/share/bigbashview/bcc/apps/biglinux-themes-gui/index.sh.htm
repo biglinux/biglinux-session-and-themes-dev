@@ -362,6 +362,18 @@ if [ "$desktop_actual" = "desk-x" ]; then
     checked_desktop_desk-x="checked"
 fi
 
+if [ "$desktop_actual" = "vanilla" ]; then
+    checked_desktop_vanilla="checked"
+fi
+
+if [ "$desktop_actual" = "modernaesthetic" ]; then
+    checked_desktop_modernaesthetic="checked"
+fi
+
+if [ "$desktop_actual" = "headtracker" ]; then
+    checked_desktop_headtracker="checked"
+fi
+
 cat << EOF
 
           <p style="text-align:center">$DESKTOP_FASTER</p>
@@ -568,10 +580,6 @@ echo '        <div id="myDivNextg" style="display:none;"><svg xmlns="http://www.
   fi                  
 cat << EOF
                 </li>
-                
-                
-                
-
                 <div class="pop-up-nextg">
                   <div class="pop-up__title">$Config_desktop
                     <svg class="close" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle">
@@ -627,7 +635,7 @@ cat << EOF
                     <ul id="menu">
                       <li>
                         <div class="content-button-wrapper" style="text-align: right;">
-                          <button class="content-button close status-button-desktopapply show-vanilla " onclick="_run('change-plasma-theme --apply vanilla clean')">$Original</button>
+                          <button class="content-button close status-button-desktopapply show-vanilla" onclick="_run('change-plasma-theme --apply vanilla clean')">$Original</button>
                         </div>
                       </li>
                       <li>
@@ -725,6 +733,7 @@ cat << EOF
                   </div>
                 </div>
 <!-- END VANILLA -->
+EOF
 
 # <!-- BEGIN DESK-X -->
 #                 <li>
@@ -770,7 +779,6 @@ cat << EOF
 #                   </div>
 #                 </div>
 # <!-- END DESK-X -->
-EOF
 cat << EOF
 <!-- BEGIN RESTART SESSION -->
                 <div class="pop-up-desktopapply">
@@ -1173,6 +1181,19 @@ fi
 if [ "$desktop_actual" = "desk-x" ]; then
   echo '<script>$(document).ready(function(){$(`#linkDesk-x`).toggleClass("disabled-link");});</script>'
 fi
+
+if [ "$desktop_actual" = "vanilla" ]; then
+  echo '<script>$(document).ready(function(){$(`#linkVanilla`).toggleClass("disabled-link");});</script>'
+fi
+
+if [ "$desktop_actual" = "modernaesthetic" ]; then
+  echo '<script>$(document).ready(function(){$(`#linkModernaEsthetic`).toggleClass("disabled-link");});</script>'
+fi
+
+if [ "$desktop_actual" = "headtracker" ]; then
+  echo '<script>$(document).ready(function(){$(`#linkHeadTracker`).toggleClass("disabled-link");});</script>'
+fi
+
 cat << EOF
 </body>
 </html>

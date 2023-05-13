@@ -12,52 +12,50 @@ kscreenlockerrc
 ksmserverrc
 ksplashrc
 plasmarc
-enable_latte
-lattedockrc
-latte
 kwin_left
 kwin_maximized_disable
 kglobalshortcutsrc
 classikrc
-)
-
-plasma=(
 plasma-org.kde.plasma.desktop-appletsrc
 plasmashellrc
 )
+# lattedockrc
+# latte
+# enable_latte
+kwin=(
+kwin_left
+kwin_maximized_disable
+)
 
 mkdir -p ~/.kdebiglinux
-mkdir -p ~/.config/latte
+# mkdir -p ~/.config/latte
 
-if [ "$3" = "quiet" ] || [ "$4" = "quiet" ]; then
-    echo "No stop services"
-else
+#se for restore, paralizar services
+# if [ "$3" = "quiet" ] || [ "$4" = "quiet" ]; then
+if [ "$2" != "clean" ]
+#     echo "No stop services"
+# else
     systemctl --user stop plasma-plasmashell
-    systemctl --user stop lattedock
+#     systemctl --user stop lattedock
     systemctl --user stop plasma-kglobalaccel.service
-
 fi
 
 LAST_USED="$(cat "$HOME/.kdebiglinux/lastused")"
-
 
 # Backup config
 if [ "$LAST_USED" != "" ]; then
     mkdir -p "$HOME/.kdebiglinux/$LAST_USED"
     #Clean latte
-    rm -Rf "$HOME/.kdebiglinux/$LAST_USED/latte"
+#     rm -Rf "$HOME/.kdebiglinux/$LAST_USED/latte"
     #Move config to use later
     for i in "${kde[@]}"; do
-        cp -Rf "$HOME/.config/$i" "$HOME/.kdebiglinux/$LAST_USED"
-    done
-    for i in "${plasma[@]}"; do
         cp -Rf "$HOME/.config/$i" "$HOME/.kdebiglinux/$LAST_USED"
     done
 fi
 
 
 # Clean
-if [ "$3" = "clean" ] && [ -e "/usr/share/biglinux/kdebiglinux/$2" ]; then
+if [ "$3" = "clean" ];then #&& [ -e "/usr/share/biglinux/kdebiglinux/$2" ]; then
     #chmod 644 ~/.config/latte/*.latte
     rm -Rf "$HOME/.kdebiglinux/$2"
 fi
@@ -70,15 +68,17 @@ fi
 
 # Apply config
 if [ -e "$HOME/.kdebiglinux/$2" ]; then
-
     #Fix autostart lattedock
-    rm -f "$HOME/.config/enable_latte"
-    #Fix kwin button
-    rm -f "$HOME/.config/kwin_left"
-    #Fix kwin maximized
-    rm -f "$HOME/.config/kwin_maximized_disable"
+#     rm -f "$HOME/.config/enable_latte"
     #Clean latte
-    rm -Rf "$HOME/.config/latte"
+#     rm -Rf "$HOME/.config/latte"
+    #Fix kwin button
+#     rm -Rf "$HOME/.config/kwin_left"
+    for k in ${kwin[@]}; do
+        rm -f "$HOME/.config/$k"
+    done
+#     #Fix kwin maximized
+#     rm -f "$HOME/.config/kwin_maximized_disable"
     #Save lastused
     echo "$2" > $HOME/.kdebiglinux/lastused
 
@@ -86,31 +86,47 @@ if [ -e "$HOME/.kdebiglinux/$2" ]; then
     for i in "${kde[@]}"; do
         cp -Rf "$HOME/.kdebiglinux/$2/$i" "/$HOME/.config/$i"
     done
-    for i in "${plasma[@]}"; do
-        cp -Rf "$HOME/.kdebiglinux/$2/$i" "/$HOME/.config/$i"
-    done
 else
-    if [ -e "/usr/share/biglinux/kdebiglinux/$2" ]; then
+#     if [ -e "/usr/share/biglinux/kdebiglinux/$2" ]; then
 
         #Fix autostart lattedock
-        rm -f "$HOME/.config/enable_latte"
+#         rm -f "$HOME/.config/enable_latte"
         #Fix kwin button
-        rm -Rf "$HOME/.config/kwin_left"
+##############################
+
+# kwinrc vai vir do lookandfeeltool ou vai editar por script????
+
+##############################
+        for k in ${kwin[@]}; do
+            rm -f "$HOME/.config/$k"
+        done
+#         rm -Rf "$HOME/.config/kwin_left"
         #Fix kwin maximized
-        rm -f "$HOME/.config/kwin_maximized_disable"
+#         rm -f "$HOME/.config/kwin_maximized_disable"
         #Save lastused
         echo "$2" > $HOME/.kdebiglinux/lastused
 
-        #Move config to use now
-        for i in "${kde[@]}"; do
-            cp -Rf /usr/share/biglinux/kdebiglinux/$2/$i ~/.config/
-        done
-        layout=$2
+#         #Move config to use now
+#         for i in "${kde[@]}"; do
+#             cp -Rf /usr/share/biglinux/kdebiglinux/$2/$i ~/.config/
+#         done
 #         sudo cp /usr/share/plasma/layout-templates/org.biglinux.desktop.${layout}/contents/layout.js /usr/share/plasma/layout-templates/org.kde.plasma.desktop.defaultPanel/contents/layout.js
 #         rm $HOME/.config/plasmashellrc
 #         rm $HOME/.config/plasma-org.kde.plasma.desktop-appletsrc
-        lookandfeeltool --apply org.biglinux.desktop.${layout} --resetLayout
-    fi
+
+
+##############################
+
+# kwinrc vai vir do lookandfeeltool ou vai editar por script????
+
+##############################
+        for k in ${kwin[@]}; do
+            cp "/usr/share/plasma/look-and-feel/org.biglinux.desktop.${2}/contents/layouts/" "$HOME/.config/"
+        done
+
+
+        lookandfeeltool --apply org.biglinux.desktop.$2 --resetLayout
+#     fi
 fi
 
 if [ "$(cat "$HOME/.config/kwin_left")" = "1" ]; then
@@ -141,6 +157,13 @@ else
     #Kwin
     sed -i '/BorderlessMaximizedWindows=true/d' ~/.config/kwinrc
 fi
+
+##############################
+
+# se tiver mais de um montor, o 2º monitor pega as configs do lookandfeeltool ???
+
+##############################
+
 
 if [ "$2" = "classic" ]; then
     #descobrir browser padrão do sistema

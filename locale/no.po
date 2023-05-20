@@ -1,74 +1,103 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the biglinux-session-and-themes-dev package.
+# This file is distributed under the same license as the biglinux-session-and-themes package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: biglinux-session-and-themes-dev\n"
+"Project-Id-Version: biglinux-session-and-themes\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: no\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"\n"
+"Den valgte skrivebordskonfigurasjonen er allerede brukt på dette systemet,\n"
+"vil du gjenopprette konfigurasjonen som allerede er brukt?\n"
+"\n"
+"Velg nei for å bruke standard systeminnstilling.\n"
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Konfigurasjon brukt!\n"
+"\n"
+"Logg ut og logg inn igjen\n"
+"for at konfigurasjonen skal fullføres\n"
+"brukes."
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Hvis du bruker en leser, starter du den på nytt for å ta i bruk endringene."
+
+msgid "Desempenho em modo normal!"
+msgstr "Ytelse i normal modus!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Ytelse i ytelsesmodus!"
+
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "Vær forsiktig så du mister tilgangen til SnapShots, er du sikker på at du vil skjule grub?"
+msgstr "Pass på at du mister tilgangen til SnapShots, er du sikker på at du vil skjule grub?"
 
 msgid "Você saberá retornar o Grub em caso de falha?"
 msgstr "Vil du vite hvordan du returnerer Grub i tilfelle feil?"
 
 msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Vil du kunne få tilgang til øyeblikksbilder uten tilgang til grafikkmodus?"
+msgstr "Vil du kunne få tilgang til SnapShots uten tilgang til Graph-modus?"
 
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "Er du helt sikker på denne applikasjonen?"
 
 msgid "Aplicando, aguarde..."
-msgstr "Søker, vent..."
+msgstr "Søker, venter..."
 
 msgid "Concluído!"
 msgstr "Gjort!"
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Hvis du bruker en nettleser, start den på nytt for å bruke endringene."
-
-msgid "Desempenho em modo performance!"
-msgstr "Ytelse i ytelsesmodus!"
 
 msgid "Desempenho em modo otimizado!"
 msgstr "Ytelse i optimalisert modus!"
 
 msgid "Temas"
-msgstr "Temaer"
+msgstr "Emner"
 
 msgid "Desktop"
 msgstr "Skrivebord"
 
 msgid "Ajustes"
-msgstr "Innstillinger"
+msgstr "justeringer"
 
 msgid "Desempenho do desktop"
-msgstr "Stasjonær ytelse"
+msgstr "Ytelse på skrivebordet"
 
 msgid "Desempenho"
 msgstr "Prestasjon"
 
 msgid "Aceleração do navegador"
-msgstr "Nettleser akselerasjon"
+msgstr "Browser akselerasjon"
 
 msgid "Tema dos aplicativos"
-msgstr "Apper-tema"
+msgstr "Apps tema"
 
 msgid "Abrir"
 msgstr "Åpen"
 
 msgid "Fechar"
-msgstr "Lukke"
+msgstr "Lukk"
 
 msgid "Bordas arredondadas."
 msgstr "Avrundede kanter."
@@ -77,11 +106,11 @@ msgid ""
 "Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
 "computadores<br>antigos ou ambientes virtualizados."
 msgstr ""
-"Dette temaet har transparenter med effekter som<br>kan bremse systemet på datamaskiner<br>gamle "
+"Dette temaet har transparenter med effekter som <br>kan bremse systemet på <br>gamle datamaskiner "
 "eller virtualiserte miljøer."
 
 msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
-msgstr "<b>Klassisk</b>, <b>nytt</b> og <b>moderne</b> presterer bedre."
+msgstr "<b>Klassisk</b>,<b>Ny</b>, og<b>Modern</b>presterer bedre."
 
 msgid "Renderizar o desktop via software"
 msgstr "Gjengi skrivebordet via programvare"
@@ -97,31 +126,31 @@ msgid ""
 "causa lentidão. Escolha a opção desejada:"
 msgstr ""
 "Preload laster programfiler inn i minnet slik at de starter raskt. Overforbruk forårsaker treghet. "
-"Velg alternativet du vil bruke:"
+"Velg ønsket alternativ:"
 
 msgid "Ligar RGB do teclado"
-msgstr "Slå på RGB fra tastaturet"
+msgstr "Koble RGB fra tastaturet"
 
 msgid "Automático"
-msgstr "Automatisk"
+msgstr "Auto"
 
 msgid "Ativar"
-msgstr "Aktivere"
+msgstr "Aktiver"
 
 msgid "Desativar"
-msgstr "Deaktivere"
+msgstr "Deaktiver"
 
 msgid "Configurações do Brave"
 msgstr "Brave innstillinger"
 
 msgid "Escolha a opção desejada:"
-msgstr "Velg alternativet du vil bruke:"
+msgstr "Velg ønsket alternativ:"
 
 msgid "Remover propagandas"
 msgstr "Fjern annonser"
 
 msgid "Suportar criptomoedas"
-msgstr "Støtt kryptovalutaer"
+msgstr "Støtte kryptovalutaer"
 
 msgid "Usabilidade"
 msgstr "Brukervennlighet"
@@ -130,16 +159,16 @@ msgid "Botões da janela no lado esquerdo"
 msgstr "Vindusknapper på venstre side"
 
 msgid "Rolagem do mouse invertida"
-msgstr "Invertert muserulling"
+msgstr "Reversert mus bla"
 
 msgid "Rolagem do touchpad invertida"
-msgstr "Invertert pekeplaterulling"
+msgstr "Invertert styreputerulling"
 
 msgid "Pesquisar arquivos"
-msgstr "Søke etter filer"
+msgstr "Søk etter filer"
 
 msgid "Bloquear a edição da área de trabalho "
-msgstr "Blokker skrivebordsredigering "
+msgstr "Blokkere skrivebordsredigering "
 
 msgid "Ocultar Gerenciador de Boot (GRUB)"
 msgstr "Skjul Boot Manager (GRUB)"
@@ -148,26 +177,26 @@ msgid "Ativar o NumLock ao ligar o sistema"
 msgstr "Aktiver NumLock når du slår på systemet"
 
 msgid "Tema aplicado"
-msgstr "Tema brukt"
+msgstr "Anvendt tema"
 
 msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "Du må starte økten på nytt for å fullføre oppsettet."
+msgstr "Du må starte økten på nytt for å fullføre konfigurasjonen."
 
 msgid "Configuração do Desktop"
-msgstr "Konfigurasjon av skrivebord"
+msgstr "Oppsett av skrivebord"
 
 msgid ""
 "Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
 "configuração original?"
 msgstr ""
-"Har du brukt dette skrivebordet før, vil du gjenopprette tilpasningen eller bruke den opprinnelige "
-"konfigurasjonen?"
+"Har du brukt dette skrivebordet før, vil du gjenopprette personaliseringen eller bruke den "
+"opprinnelige konfigurasjonen?"
 
 msgid "Sim"
 msgstr "Ja"
 
 msgid "Não"
-msgstr "Nei"
+msgstr "Nei, nei"
 
 msgid "Original"
 msgstr "Original"
@@ -176,7 +205,7 @@ msgid "Restaurar"
 msgstr "Gjenopprette"
 
 msgid "Desktop aplicado"
-msgstr "Brukt skrivebord"
+msgstr "Anvendt skrivebord"
 
 msgid "Modo performance"
 msgstr "Ytelsesmodus"
@@ -185,41 +214,7 @@ msgid "BTRFS sem fsync"
 msgstr "BTRFS uten fsync"
 
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
-msgstr "Ved hjelp av programvaregjengivelse reduseres kvaliteten på transparentene."
-
-msgid "Desempenho em modo normal!"
-msgstr "Ytelse i normal modus!"
-
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"Den valgte skrivebordskonfigurasjonen er allerede brukt på dette systemet,\n"
-"Vil du gjenopprette konfigurasjonen som allerede er brukt?\n"
-"\n"
-"Velg Nei for å bruke standard systemkonfigurasjon."
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"Konfigurasjon brukt!\n"
-"\n"
-"Logg av og logg på igjen\n"
-"slik at konfigurasjonen fullføres fra\n"
-"brukes."
+msgstr "Ved å bruke programvaregjengivelse reduseres kvaliteten på transparentene."
 
 msgid "Temas, Desktop e Ajustes"
-msgstr "Temaer, skrivebord og innstillinger"
-
-msgid "Abrirr"
-msgstr "Åpen"
-
-msgid "casa"
-msgstr "hus"
+msgstr "Temaer, skrivebord og justeringer"

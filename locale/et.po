@@ -1,53 +1,82 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the biglinux-session-and-themes-dev package.
+# This file is distributed under the same license as the biglinux-session-and-themes package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: biglinux-session-and-themes-dev\n"
+"Project-Id-Version: biglinux-session-and-themes\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: et\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"\n"
+"Valitud töölaua konfiguratsiooni on selles süsteemis juba kasutatud,\n"
+"kas soovite taastada juba kasutatud konfiguratsiooni?\n"
+"\n"
+"Valige ei, et kasutada süsteemi vaikimisi konfiguratsiooni.\n"
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Konfigureerimine rakendatud!\n"
+"\n"
+"Logi välja ja logi uuesti sisse\n"
+"konfiguratsiooni lõpetamiseks\n"
+"kohaldatud."
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Kui kasutate brauserit, taaskäivitage see muudatuste rakendamiseks."
+
+msgid "Desempenho em modo normal!"
+msgstr "Tulemuslikkus tavarežiimis!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Esitlusvõime esitusrežiimis!"
+
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "Olge ettevaatlik, et kaotate juurdepääsu SnapShotsile, kas olete kindel, et soovite grubi varjata?"
+msgstr "Ettevaatust, et kaotate juurdepääsu SnapShotsile, kas olete kindel, et soovite grubi varjata?"
 
 msgid "Você saberá retornar o Grub em caso de falha?"
 msgstr "Kas teate, kuidas Grubi ebaõnnestumise korral tagastada?"
 
 msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Kas pääsete SnapShotsile juurde ilma graafikarežiimile juurdepääsuta?"
+msgstr "Kas pääsete SnapShotsile juurde ilma graafikurežiimile juurdepääsuta?"
 
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "Kas olete selles rakenduses täiesti kindel?"
 
 msgid "Aplicando, aguarde..."
-msgstr "Kandideerimine, oota..."
+msgstr "Taotlemine, oota..."
 
 msgid "Concluído!"
 msgstr "Teinud!"
 
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Kui kasutate mõnda brauserit, taaskäivitage see muudatuste rakendamiseks."
-
-msgid "Desempenho em modo performance!"
-msgstr "Jõudlus jõudlusrežiimis!"
-
 msgid "Desempenho em modo otimizado!"
-msgstr "Jõudlus optimeeritud režiimis!"
+msgstr "Täiustatud režiimil toimimine!"
 
 msgid "Temas"
 msgstr "Teemad"
 
 msgid "Desktop"
-msgstr "Töölaua"
+msgstr "Töölauaarvuti"
 
 msgid "Ajustes"
 msgstr "Seaded"
@@ -62,72 +91,72 @@ msgid "Aceleração do navegador"
 msgstr "Brauseri kiirendus"
 
 msgid "Tema dos aplicativos"
-msgstr "Rakenduste kujundus"
+msgstr "Rakenduse teema"
 
 msgid "Abrir"
 msgstr "Avama"
 
 msgid "Fechar"
-msgstr "Sulgema"
+msgstr "Sulge"
 
 msgid "Bordas arredondadas."
-msgstr "Ümardatud servad."
+msgstr "Ümarad servad."
 
 msgid ""
 "Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
 "computadores<br>antigos ou ambientes virtualizados."
 msgstr ""
-"Sellel teemal on läbipaistvus efektidega, mis<br>võib aeglustada süsteemi arvutites<br>vanad või "
-"virtualiseeritud keskkonnad."
+"Selles teemas on efektidega läbipaistvused, mis võivad<br>vanades arvutites<br>või virtualiseeritud "
+"keskkondadessüsteemi aeglustada."
 
 msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
-msgstr "<b>Klassikaline</b>, <b>uus</b> ja <b>kaasaegne</b> toimivad paremini."
+msgstr "Kõige paremini toimivad <b>klassikaline</b>, <b>uus</b> ja <b>kaasaegne</b>."
 
 msgid "Renderizar o desktop via software"
-msgstr "Renderdage töölaud tarkvara kaudu"
+msgstr "Töölaua renderdamine tarkvara abil"
 
 msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
-msgstr "(See võib olla kasulik vanemates arvutites, kuid mõned programmid ei tööta)"
+msgstr "(See võib olla kasulik vanemates arvutites, kuid mõned programmid lakkavad töötamast)"
 
 msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Valige programmid, mida alglaadimise ajal mällu laadida"
+msgstr "Valige programmid, mis laaditakse mällu käivitamise ajal"
 
 msgid ""
 "O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
 "causa lentidão. Escolha a opção desejada:"
 msgstr ""
-"Eellaadimine laadib programmifailid mällu, et need kiiresti käivituksid. Liigne kasutamine "
-"põhjustab aeglust. Valige soovitud suvand."
+"Eellaadimine laeb programmifailid mällu, et need käivituksid kiiresti. Liigne kasutamine põhjustab "
+"aeglustumist. Valige soovitud valik:"
 
 msgid "Ligar RGB do teclado"
-msgstr "Lülitage RGB klaviatuurilt sisse"
+msgstr "Ühendage RGB klaviatuurilt"
 
 msgid "Automático"
 msgstr "Automaatne"
 
 msgid "Ativar"
-msgstr "Aktiveerima"
+msgstr "Aktiveeri"
 
 msgid "Desativar"
-msgstr "Keelata"
+msgstr "Deaktiveeri"
 
 msgid "Configurações do Brave"
-msgstr "Julged seaded"
+msgstr "Julged konfiguratsioonid"
 
 msgid "Escolha a opção desejada:"
-msgstr "Valige soovitud suvand."
+msgstr "Valige soovitud valik:"
 
 msgid "Remover propagandas"
 msgstr "Eemaldage reklaamid"
 
 msgid "Suportar criptomoedas"
-msgstr "Toetage krüptovaluutasid"
+msgstr "Krüptovaluutade toetamine"
 
 msgid "Usabilidade"
 msgstr "Kasutatavus"
 
 msgid "Botões da janela no lado esquerdo"
-msgstr "Akna nupud vasakul küljel"
+msgstr "Akna nupud vasakul pool"
 
 msgid "Rolagem do mouse invertida"
 msgstr "Ümberpööratud hiire kerimine"
@@ -136,22 +165,22 @@ msgid "Rolagem do touchpad invertida"
 msgstr "Ümberpööratud puuteplaadi kerimine"
 
 msgid "Pesquisar arquivos"
-msgstr "Otsige faile"
+msgstr "Otsi arhiivides"
 
 msgid "Bloquear a edição da área de trabalho "
 msgstr "Töölaua redigeerimise blokeerimine "
 
 msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Peida alglaadimishaldur (GRUB)"
+msgstr "Hide Boot Manager (GRUB)"
 
 msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Aktiveerige NumLock süsteemi sisselülitamisel"
+msgstr "NumLocki lubamine süsteemi käivitamisel"
 
 msgid "Tema aplicado"
-msgstr "Rakendatud kujundus"
+msgstr "Kohaldatud teema"
 
 msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "Seadistamise lõpuleviimiseks peate seansi taaskäivitama."
+msgstr "Konfigureerimise lõpuleviimiseks peate seansi taaskäivitama."
 
 msgid "Configuração do Desktop"
 msgstr "Töölaua konfiguratsioon"
@@ -160,7 +189,7 @@ msgid ""
 "Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
 "configuração original?"
 msgstr ""
-"Kas olete seda töölauda varem kasutanud, kas soovite selle kohandamise taastada või kasutada algset "
+"Kas olete seda töölauda varem kasutanud, kas soovite taastada selle kohandamise või kasutada algset "
 "konfiguratsiooni?"
 
 msgid "Sim"
@@ -173,53 +202,19 @@ msgid "Original"
 msgstr "Originaal"
 
 msgid "Restaurar"
-msgstr "Taastada"
+msgstr "Taasta"
 
 msgid "Desktop aplicado"
-msgstr "Rakendatud töölaud"
+msgstr "Rakendatud töölauale"
 
 msgid "Modo performance"
-msgstr "Toimivuse režiim"
+msgstr "Jõudluse režiim"
 
 msgid "BTRFS sem fsync"
 msgstr "BTRFS ilma fsyncita"
 
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
-msgstr "Tarkvara renderdamise abil väheneb läbipaistvuse kvaliteet."
-
-msgid "Desempenho em modo normal!"
-msgstr "Jõudlus tavarežiimis!"
-
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"Valitud töölaua konfiguratsiooni on selles süsteemis juba kasutatud,\n"
-"Kas soovite juba kasutatud konfiguratsiooni taastada?\n"
-"\n"
-"Süsteemi vaikekonfiguratsiooni kasutamiseks valige Ei."
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"Konfiguratsioon rakendatud!\n"
-"\n"
-"Logi välja ja logi uuesti sisse\n"
-"nii, et konfiguratsioon lõpeb\n"
-"rakendada."
+msgstr "Tarkvaralist renderdamist kasutades väheneb läbipaistvuse kvaliteet."
 
 msgid "Temas, Desktop e Ajustes"
-msgstr "Kujundused, töölaud ja sätted"
-
-msgid "Abrirr"
-msgstr "Avama"
-
-msgid "casa"
-msgstr "house"
+msgstr "Teemad, töölaud ja seaded"

@@ -1,47 +1,76 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the biglinux-session-and-themes-dev package.
+# This file is distributed under the same license as the biglinux-session-and-themes package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: biglinux-session-and-themes-dev\n"
+"Project-Id-Version: biglinux-session-and-themes\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"\n"
+"Wybrana konfiguracja pulpitu była już używana w tym systemie,\n"
+"czy chcą Państwo przywrócić konfigurację, która była już używana?\n"
+"\n"
+"Wybrać \"nie\", aby użyć domyślnej konfiguracji systemu.\n"
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Konfiguracja zastosowana!\n"
+"\n"
+"Wyloguj się i zaloguj ponownie\n"
+"aby konfiguracja została zakończona\n"
+"stosowane."
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Jeśli używasz przeglądarki, uruchom ją ponownie, aby zastosować zmiany."
+
+msgid "Desempenho em modo normal!"
+msgstr "Wydajność w trybie normalnym!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Wydajność w trybie wydajnościowym!"
+
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "Uważaj, że stracisz dostęp do SnapShots, czy na pewno chcesz ukryć grubie?"
+msgstr "Uważaj, stracisz dostęp do SnapShots, czy na pewno chcesz ukryć gruba?"
 
 msgid "Você saberá retornar o Grub em caso de falha?"
 msgstr "Czy będziesz wiedział, jak zwrócić Gruba w przypadku awarii?"
 
 msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Czy będziesz mieć dostęp do SnapShotów bez dostępu do trybu graficznego?"
+msgstr "Czy będziesz mieć dostęp do SnapShots bez dostępu do trybu Graph?"
 
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "Czy jesteś całkowicie pewien tej aplikacji?"
 
 msgid "Aplicando, aguarde..."
-msgstr "Aplikowanie, czekanie..."
+msgstr "Aplikując, czekaj..."
 
 msgid "Concluído!"
 msgstr "Gotowy!"
 
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Jeśli używasz dowolnej przeglądarki, uruchom ją ponownie, aby zastosować zmiany."
-
-msgid "Desempenho em modo performance!"
-msgstr "Wydajność w trybie wydajności!"
-
 msgid "Desempenho em modo otimizado!"
-msgstr "Wydajność w trybie zoptymalizowanym!"
+msgstr "Wydajność w trybie rozszerzonym!"
 
 msgid "Temas"
 msgstr "Tematy"
@@ -53,7 +82,7 @@ msgid "Ajustes"
 msgstr "Ustawienia"
 
 msgid "Desempenho do desktop"
-msgstr "Wydajność komputera stacjonarnego"
+msgstr "Wydajność pulpitu"
 
 msgid "Desempenho"
 msgstr "Wydajność"
@@ -62,13 +91,13 @@ msgid "Aceleração do navegador"
 msgstr "Przyspieszenie przeglądarki"
 
 msgid "Tema dos aplicativos"
-msgstr "Kompozycja Aplikacje"
+msgstr "Temat aplikacji"
 
 msgid "Abrir"
 msgstr "Otwierać"
 
 msgid "Fechar"
-msgstr "Zamykać"
+msgstr "Zamknij"
 
 msgid "Bordas arredondadas."
 msgstr "Zaokrąglone krawędzie."
@@ -77,78 +106,78 @@ msgid ""
 "Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
 "computadores<br>antigos ou ambientes virtualizados."
 msgstr ""
-"Ten motyw ma przezroczystości z efektami, które<br>może spowolnić działanie systemu na "
-"komputerach<br>stare lub zwirtualizowane środowiska."
+"Ten motyw ma przezroczystości z efektami, które mogą<br>spowolnić system na starych "
+"komputerach<br>lub w środowiskach wirtualnych."
 
 msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
-msgstr "<b>Klasyczne</b>, <b>nowe</b> i <b>nowoczesne</b> działają lepiej."
+msgstr "Najlepiej sprawdzają się <b>Classic</b>, <b>New</b> i <b>Modern</b>."
 
 msgid "Renderizar o desktop via software"
-msgstr "Renderuj pulpit za pomocą oprogramowania"
+msgstr "Rendering pulpitu przez oprogramowanie"
 
 msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
 msgstr "(Może to być przydatne na starszych komputerach, ale niektóre programy przestają działać)"
 
 msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Wybierz programy, które mają zostać załadowane do pamięci podczas rozruchu"
+msgstr "Wybór programów, które będą ładowane do pamięci przy starcie systemu"
 
 msgid ""
 "O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
 "causa lentidão. Escolha a opção desejada:"
 msgstr ""
-"Wstępnie ładuje pliki programów do pamięci, aby szybko się uruchamiały. Nadużywanie powoduje "
-"powolność. Wybierz żądaną opcję:"
+"Preload ładuje pliki programów do pamięci, aby szybko się uruchamiały. Nadmierne użycie powoduje "
+"spowolnienia. Wybrać żądaną opcję:"
 
 msgid "Ligar RGB do teclado"
-msgstr "Włączanie trybu RGB z klawiatury"
+msgstr "Podłącz RGB z klawiatury"
 
 msgid "Automático"
-msgstr "Automatyczne"
+msgstr "Automatyczny"
 
 msgid "Ativar"
-msgstr "Aktywować"
+msgstr "Aktywuj"
 
 msgid "Desativar"
-msgstr "Wyłączać"
+msgstr "Dezaktywuj"
 
 msgid "Configurações do Brave"
-msgstr "Odważne ustawienia"
+msgstr "Odważne konfiguracje"
 
 msgid "Escolha a opção desejada:"
-msgstr "Wybierz żądaną opcję:"
+msgstr "Wybrać żądaną opcję:"
 
 msgid "Remover propagandas"
-msgstr "Usuń reklamy"
+msgstr "Usunąć reklamy"
 
 msgid "Suportar criptomoedas"
-msgstr "Obsługa kryptowalut"
+msgstr "Wsparcie dla kryptowalut"
 
 msgid "Usabilidade"
-msgstr "Użyteczność"
+msgstr "Usability"
 
 msgid "Botões da janela no lado esquerdo"
-msgstr "Przyciski okien po lewej stronie"
+msgstr "Przyciski okienne po lewej stronie"
 
 msgid "Rolagem do mouse invertida"
-msgstr "Odwrócone przewijanie myszą"
+msgstr "Odwrócony scroll myszy"
 
 msgid "Rolagem do touchpad invertida"
-msgstr "Odwrócony panel dotykowy"
+msgstr "Odwrócone przewijanie płytki dotykowej"
 
 msgid "Pesquisar arquivos"
-msgstr "Wyszukiwanie plików"
+msgstr "Archiwa wyszukiwania"
 
 msgid "Bloquear a edição da área de trabalho "
 msgstr "Blokowanie edycji pulpitu "
 
 msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Ukryj Menedżera rozruchu (GRUB)"
+msgstr "Hide Boot Manager (GRUB)"
 
 msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Aktywuj NumLock podczas włączania zasilania systemu"
+msgstr "Włączenie NumLock przy uruchamianiu systemu"
 
 msgid "Tema aplicado"
-msgstr "Zastosowany motyw"
+msgstr "Zastosowany temat"
 
 msgid "É preciso reiniciar a sessão para concluir a configuração."
 msgstr "Aby ukończyć konfigurację, należy ponownie uruchomić sesję."
@@ -160,7 +189,7 @@ msgid ""
 "Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
 "configuração original?"
 msgstr ""
-"Czy korzystałeś wcześniej z tego pulpitu, czy chcesz przywrócić jego dostosowanie, czy użyć "
+"Czy korzystał Pan już wcześniej z tego pulpitu, czy chce Pan przywrócić jego dostosowanie lub użyć "
 "oryginalnej konfiguracji?"
 
 msgid "Sim"
@@ -173,10 +202,10 @@ msgid "Original"
 msgstr "Oryginał"
 
 msgid "Restaurar"
-msgstr "Przywrócić"
+msgstr "Przywróć"
 
 msgid "Desktop aplicado"
-msgstr "Zastosowane pulpit"
+msgstr "Zastosowano pulpit"
 
 msgid "Modo performance"
 msgstr "Tryb wydajności"
@@ -185,41 +214,7 @@ msgid "BTRFS sem fsync"
 msgstr "BTRFS bez fsync"
 
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
-msgstr "Dzięki renderowaniu programowemu jakość folii jest zmniejszona."
-
-msgid "Desempenho em modo normal!"
-msgstr "Wydajność w trybie normalnym!"
-
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"Wybrana konfiguracja pulpitu została już użyta w tym systemie,\n"
-"Czy chcesz przywrócić konfigurację, która była już używana?\n"
-"\n"
-"Wybierz opcję Nie, aby użyć domyślnej konfiguracji systemu."
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"Konfiguracja zastosowana!\n"
-"\n"
-"Wyloguj się i zaloguj ponownie\n"
-"tak, aby konfiguracja zakończyła się od\n"
-"być stosowane."
+msgstr "Przy renderowaniu programowym jakość przezroczy jest obniżona."
 
 msgid "Temas, Desktop e Ajustes"
-msgstr "Kompozycje, pulpit i ustawienia"
-
-msgid "Abrirr"
-msgstr "Otwierać"
-
-msgid "casa"
-msgstr "dom"
+msgstr "Motywy, Pulpit i Ustawienia"

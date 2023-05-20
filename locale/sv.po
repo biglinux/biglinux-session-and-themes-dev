@@ -1,49 +1,76 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the biglinux-session-and-themes-dev package.
+# This file is distributed under the same license as the biglinux-session-and-themes package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: biglinux-session-and-themes-dev\n"
+"Project-Id-Version: biglinux-session-and-themes\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
 msgstr ""
-"Var försiktig så att du förlorar tillgången till SnapShots, är du säker på att du vill dölja "
-"grubben?"
+"\n"
+"Den valda skrivbordskonfigurationen har redan använts på det här systemet,\n"
+"vill du återställa den konfiguration som redan har använts?\n"
+"\n"
+"Välj no för att använda systemets standardkonfiguration.\n"
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Konfigurationen tillämpas!\n"
+"\n"
+"Logga ut och logga in igen\n"
+"för att konfigurationen ska vara klar\n"
+"tillämpas."
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Om du använder en webbläsare startar du om den för att tillämpa ändringarna."
+
+msgid "Desempenho em modo normal!"
+msgstr "Prestanda i normalt läge!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Prestanda i prestandaläge!"
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Se upp för att du kommer att förlora åtkomst till SnapShots, är du säker på att du vill dölja grub?"
 
 msgid "Você saberá retornar o Grub em caso de falha?"
 msgstr "Kommer du att veta hur du returnerar Grub vid fel?"
 
 msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Kommer du att kunna komma åt SnapShots utan tillgång till grafikläge?"
+msgstr "Kommer du att kunna komma åt SnapShots utan tillgång till Graph-läge?"
 
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "Är du helt säker på den här applikationen?"
 
 msgid "Aplicando, aguarde..."
-msgstr "Ansöker, väntar..."
+msgstr "Ansökan, vänta..."
 
 msgid "Concluído!"
 msgstr "Färdig!"
 
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Om du använder en webbläsare startar du om den för att tillämpa ändringarna."
-
-msgid "Desempenho em modo performance!"
-msgstr "Prestanda i prestandaläge!"
-
 msgid "Desempenho em modo otimizado!"
-msgstr "Prestanda i optimerat läge!"
+msgstr "Prestanda i förbättrat läge!"
 
 msgid "Temas"
 msgstr "Teman"
@@ -55,7 +82,7 @@ msgid "Ajustes"
 msgstr "Inställningar"
 
 msgid "Desempenho do desktop"
-msgstr "Prestanda för stationära datorer"
+msgstr "Skrivbordsprestanda"
 
 msgid "Desempenho"
 msgstr "Föreställning"
@@ -64,13 +91,13 @@ msgid "Aceleração do navegador"
 msgstr "Acceleration av webbläsare"
 
 msgid "Tema dos aplicativos"
-msgstr "Temat Appar"
+msgstr "Tema för ansökan"
 
 msgid "Abrir"
 msgstr "Öppna"
 
 msgid "Fechar"
-msgstr "Stänga"
+msgstr "Stäng"
 
 msgid "Bordas arredondadas."
 msgstr "Avrundade kanter."
@@ -79,30 +106,30 @@ msgid ""
 "Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
 "computadores<br>antigos ou ambientes virtualizados."
 msgstr ""
-"Detta tema har OH-film med effekter som<br>kan sakta ner systemet på datorer<br>gamla eller "
-"virtualiserade miljöer."
+"Det här temat har transparenter med effekter som kan göra<br>systemet långsammare på gamla "
+"datorer<br>eller virtualiserade miljöer."
 
 msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
-msgstr "<b>Klassiskt</b>, <b>nytt</b> och <b>modernt</b> presterar bättre."
+msgstr "<b>Klassiskt</b>, <b>nytt</b> och <b>modernt</b> fungerar bäst."
 
 msgid "Renderizar o desktop via software"
-msgstr "Rendera skrivbordet via programvara"
+msgstr "Återgivning av skrivbordet med hjälp av mjukvara"
 
 msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
 msgstr "(Det kan vara användbart på äldre datorer, men vissa program slutar fungera)"
 
 msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Välj program som ska läsas in i minnet under start"
+msgstr "Välj program som ska laddas in i minnet vid uppstart"
 
 msgid ""
 "O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
 "causa lentidão. Escolha a opção desejada:"
 msgstr ""
-"Förladdning läser in programfiler i minnet så att de startar snabbt. Överanvändning orsakar "
-"långsamhet. Välj önskat alternativ:"
+"Preload laddar in programfiler i minnet så att de startar snabbt. Överdriven användning leder till "
+"långsamma nedgångar. Välj önskat alternativ:"
 
 msgid "Ligar RGB do teclado"
-msgstr "Aktivera RGB från tangentbordet"
+msgstr "Anslut RGB från tangentbordet"
 
 msgid "Automático"
 msgstr "Automatisk"
@@ -114,7 +141,7 @@ msgid "Desativar"
 msgstr "Inaktivera"
 
 msgid "Configurações do Brave"
-msgstr "Modiga inställningar"
+msgstr "Modiga konfigurationer"
 
 msgid "Escolha a opção desejada:"
 msgstr "Välj önskat alternativ:"
@@ -123,7 +150,7 @@ msgid "Remover propagandas"
 msgstr "Ta bort annonser"
 
 msgid "Suportar criptomoedas"
-msgstr "Stöd kryptovalutor"
+msgstr "Stöd för kryptovalutor"
 
 msgid "Usabilidade"
 msgstr "Användbarhet"
@@ -135,50 +162,50 @@ msgid "Rolagem do mouse invertida"
 msgstr "Inverterad musrullning"
 
 msgid "Rolagem do touchpad invertida"
-msgstr "Inverterad pekplatterullning"
+msgstr "Inverterad pekplatta rullning"
 
 msgid "Pesquisar arquivos"
-msgstr "Söka efter filer"
+msgstr "Sök i arkiven"
 
 msgid "Bloquear a edição da área de trabalho "
 msgstr "Blockera skrivbordsredigering "
 
 msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Dölj starthanteraren (GRUB)"
+msgstr "Dölj Boot Manager (GRUB)"
 
 msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Aktivera NumLock när du slår på systemet"
+msgstr "Aktivera NumLock vid systemstart"
 
 msgid "Tema aplicado"
 msgstr "Tillämpat tema"
 
 msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "Du måste starta om sessionen för att slutföra installationen."
+msgstr "Du måste starta om sessionen för att slutföra konfigurationen."
 
 msgid "Configuração do Desktop"
-msgstr "Konfiguration av skrivbord"
+msgstr "Konfigurering av skrivbord"
 
 msgid ""
 "Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
 "configuração original?"
 msgstr ""
-"Har du använt det här skrivbordet tidigare, vill du återställa dess anpassning eller använda den "
+"Har du använt det här skrivbordet tidigare, vill du återställa anpassningen eller använda den "
 "ursprungliga konfigurationen?"
 
 msgid "Sim"
 msgstr "Ja"
 
 msgid "Não"
-msgstr "Nej"
+msgstr "Ingen"
 
 msgid "Original"
 msgstr "Original"
 
 msgid "Restaurar"
-msgstr "Återställa"
+msgstr "Återställ"
 
 msgid "Desktop aplicado"
-msgstr "Tillämpat skrivbord"
+msgstr "Skrivbord som används"
 
 msgid "Modo performance"
 msgstr "Prestanda-läge"
@@ -187,41 +214,7 @@ msgid "BTRFS sem fsync"
 msgstr "BTRFS utan fsync"
 
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
-msgstr "Med hjälp av programvarurendering reduceras kvaliteten på OH-filmerna."
-
-msgid "Desempenho em modo normal!"
-msgstr "Prestanda i normalt läge!"
-
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"Den valda skrivbordskonfigurationen har redan använts på detta system,\n"
-"Vill du återställa konfigurationen som redan har använts?\n"
-"\n"
-"Välj Nej för att använda standardsystemkonfigurationen."
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"Konfiguration tillämpas!\n"
-"\n"
-"Logga ut och logga in igen\n"
-"så att konfigurationen slutförs från\n"
-"tillämpas."
+msgstr "Om du använder mjukvarurendering minskar kvaliteten på transparenter."
 
 msgid "Temas, Desktop e Ajustes"
 msgstr "Teman, skrivbord och inställningar"
-
-msgid "Abrirr"
-msgstr "Öppna"
-
-msgid "casa"
-msgstr "hus"

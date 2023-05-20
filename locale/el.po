@@ -1,20 +1,55 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the biglinux-session-and-themes-dev package.
+# This file is distributed under the same license as the biglinux-session-and-themes package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: biglinux-session-and-themes-dev\n"
+"Project-Id-Version: biglinux-session-and-themes\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
+
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"\n"
+"Η επιλεγμένη διαμόρφωση επιφάνειας εργασίας έχει ήδη χρησιμοποιηθεί σε αυτό το σύστημα,\n"
+"θέλετε να επαναφέρετε τη διαμόρφωση που έχει ήδη χρησιμοποιηθεί\n"
+"\n"
+"Επιλέξτε no για να χρησιμοποιήσετε την προεπιλεγμένη διαμόρφωση του συστήματος.\n"
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Εφαρμόζεται η διαμόρφωση!\n"
+"\n"
+"Αποσυνδεθείτε και συνδεθείτε ξανά\n"
+"για να ολοκληρωθεί η διαμόρφωση\n"
+"εφαρμόζεται."
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Εάν χρησιμοποιείτε πρόγραμμα περιήγησης, επανεκκινήστε το για να εφαρμόσετε τις αλλαγές."
+
+msgid "Desempenho em modo normal!"
+msgstr "Απόδοση σε κανονική λειτουργία!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Απόδοση σε λειτουργία απόδοσης!"
 
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
 msgstr "Προσέξτε ότι θα χάσετε την πρόσβαση στο SnapShots, είστε σίγουροι ότι θέλετε να κρύψετε το grub;"
@@ -23,52 +58,46 @@ msgid "Você saberá retornar o Grub em caso de falha?"
 msgstr "Θα ξέρετε πώς να επιστρέψετε το Grub σε περίπτωση αποτυχίας;"
 
 msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Θα μπορείτε να έχετε πρόσβαση στο SnapShots χωρίς πρόσβαση στη λειτουργία γραφικών;"
+msgstr "Θα μπορείτε να έχετε πρόσβαση στο SnapShots χωρίς πρόσβαση στη λειτουργία γραφήματος;"
 
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "Είστε απόλυτα σίγουροι για αυτήν την εφαρμογή;"
 
 msgid "Aplicando, aguarde..."
-msgstr "Εφαρμογή, περιμένετε..."
+msgstr "Αίτηση, περιμένετε..."
 
 msgid "Concluído!"
 msgstr "Έγινε!"
 
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Εάν χρησιμοποιείτε οποιοδήποτε πρόγραμμα περιήγησης, επανεκκινήστε το για να εφαρμόσετε τις αλλαγές."
-
-msgid "Desempenho em modo performance!"
-msgstr "Απόδοση σε λειτουργία απόδοσης!"
-
 msgid "Desempenho em modo otimizado!"
-msgstr "Απόδοση σε βελτιστοποιημένη λειτουργία!"
+msgstr "Απόδοση σε βελτιωμένη λειτουργία!"
 
 msgid "Temas"
 msgstr "Θέματα"
 
 msgid "Desktop"
-msgstr "Επιφάνεια εργασίας"
+msgstr "Επιτραπέζια επιφάνεια εργασίας"
 
 msgid "Ajustes"
 msgstr "Ρυθμίσεις"
 
 msgid "Desempenho do desktop"
-msgstr "Απόδοση επιφάνειας εργασίας"
+msgstr "Επιδόσεις επιφάνειας εργασίας"
 
 msgid "Desempenho"
 msgstr "Εκτέλεση"
 
 msgid "Aceleração do navegador"
-msgstr "Επιτάχυνση προγράμματος περιήγησης"
+msgstr "Επιτάχυνση του προγράμματος περιήγησης"
 
 msgid "Tema dos aplicativos"
-msgstr "Θέμα \"Εφαρμογές\""
+msgstr "Θέμα εφαρμογής"
 
 msgid "Abrir"
 msgstr "Ανοίγω"
 
 msgid "Fechar"
-msgstr "Κλείνω"
+msgstr "Κλείστε το"
 
 msgid "Bordas arredondadas."
 msgstr "Στρογγυλεμένες άκρες."
@@ -77,14 +106,14 @@ msgid ""
 "Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
 "computadores<br>antigos ou ambientes virtualizados."
 msgstr ""
-"Αυτό το θέμα έχει διαφάνειες με εφέ που<br>ενδέχεται να επιβραδύνει το σύστημα σε "
-"υπολογιστές<br>παλιά ή εικονικά διαμορφωμένα περιβάλλοντα."
+"Αυτό το θέμα έχει διαφάνειες με εφέ που μπορεί να επιβραδύνουν<br>το σύστημα σε παλιούς "
+"υπολογιστές<br>ή εικονικά περιβάλλοντα."
 
 msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
-msgstr "<b>Το Classic</b>, το <b>New</b> και <b>το Modern</b> αποδίδουν καλύτερα."
+msgstr "Τα <b>κλασικά</b>, τα <b>νέα</b> και τα <b>μοντέρνα</b> αποδίδουν καλύτερα."
 
 msgid "Renderizar o desktop via software"
-msgstr "Απόδοση της επιφάνειας εργασίας μέσω λογισμικού"
+msgstr "Απεικόνιση της επιφάνειας εργασίας μέσω λογισμικού"
 
 msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
 msgstr ""
@@ -92,35 +121,35 @@ msgstr ""
 "λειτουργούν)"
 
 msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Επιλέξτε προγράμματα για φόρτωση στη μνήμη κατά την εκκίνηση"
+msgstr "Επιλέξτε προγράμματα που θα φορτωθούν στη μνήμη κατά την εκκίνηση"
 
 msgid ""
 "O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
 "causa lentidão. Escolha a opção desejada:"
 msgstr ""
-"Η προφόρτωση φορτώνει αρχεία προγράμματος στη μνήμη, ώστε να ξεκινούν γρήγορα. Η υπερβολική χρήση "
-"προκαλεί βραδύτητα. Ορίστε την επιλογή που θέλετε:"
+"Η προφόρτωση φορτώνει τα αρχεία του προγράμματος στη μνήμη, ώστε να ξεκινήσει γρήγορα. Η υπερβολική "
+"χρήση προκαλεί επιβραδύνσεις. Επιλέξτε την επιθυμητή επιλογή:"
 
 msgid "Ligar RGB do teclado"
-msgstr "Ενεργοποίηση RGB από το πληκτρολόγιο"
+msgstr "Σύνδεση RGB από πληκτρολόγιο"
 
 msgid "Automático"
-msgstr "Αυτόματος"
+msgstr "Αυτόματο"
 
 msgid "Ativar"
-msgstr "Ενεργοποιώ"
+msgstr "Ενεργοποίηση"
 
 msgid "Desativar"
-msgstr "Απενεργοποιώ"
+msgstr "Απενεργοποίηση"
 
 msgid "Configurações do Brave"
-msgstr "Γενναίες ρυθμίσεις"
+msgstr "Γενναίες διαμορφώσεις"
 
 msgid "Escolha a opção desejada:"
-msgstr "Ορίστε την επιλογή που θέλετε:"
+msgstr "Επιλέξτε την επιθυμητή επιλογή:"
 
 msgid "Remover propagandas"
-msgstr "Κατάργηση διαφημίσεων"
+msgstr "Αφαίρεση διαφημίσεων"
 
 msgid "Suportar criptomoedas"
 msgstr "Υποστήριξη κρυπτονομισμάτων"
@@ -132,28 +161,28 @@ msgid "Botões da janela no lado esquerdo"
 msgstr "Κουμπιά παραθύρου στην αριστερή πλευρά"
 
 msgid "Rolagem do mouse invertida"
-msgstr "Ανεστραμμένη κύλιση ποντικιού"
+msgstr "Αντεστραμμένη κύλιση ποντικιού"
 
 msgid "Rolagem do touchpad invertida"
-msgstr "Ανεστραμμένη κύλιση touchpad"
+msgstr "Ανεστραμμένη κύλιση επιφάνειας αφής"
 
 msgid "Pesquisar arquivos"
-msgstr "Αναζήτηση αρχείων"
+msgstr "Αναζήτηση στα αρχεία"
 
 msgid "Bloquear a edição da área de trabalho "
 msgstr "Αποκλεισμός επεξεργασίας επιφάνειας εργασίας "
 
 msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Απόκρυψη διαχειριστή εκκίνησης (GRUB)"
+msgstr "Απόκρυψη του διαχειριστή εκκίνησης (GRUB)"
 
 msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Ενεργοποιήστε το NumLock κατά την ενεργοποίηση του συστήματος"
+msgstr "Ενεργοποίηση του NumLock κατά την εκκίνηση του συστήματος"
 
 msgid "Tema aplicado"
 msgstr "Εφαρμοσμένο θέμα"
 
 msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "Πρέπει να επανεκκινήσετε την περίοδο λειτουργίας για να ολοκληρώσετε τη ρύθμιση."
+msgstr "Πρέπει να επανεκκινήσετε την περίοδο λειτουργίας για να ολοκληρώσετε τη ρύθμιση παραμέτρων."
 
 msgid "Configuração do Desktop"
 msgstr "Διαμόρφωση επιφάνειας εργασίας"
@@ -162,8 +191,8 @@ msgid ""
 "Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
 "configuração original?"
 msgstr ""
-"Έχετε χρησιμοποιήσει αυτήν την επιφάνεια εργασίας στο παρελθόν, θέλετε να επαναφέρετε την "
-"προσαρμογή της ή να χρησιμοποιήσετε την αρχική διαμόρφωση;"
+"Έχετε χρησιμοποιήσει αυτή την επιφάνεια εργασίας στο παρελθόν, θέλετε να επαναφέρετε την "
+"παραμετροποίησή της ή να χρησιμοποιήσετε την αρχική διαμόρφωση"
 
 msgid "Sim"
 msgstr "Ναι"
@@ -172,56 +201,22 @@ msgid "Não"
 msgstr "Όχι"
 
 msgid "Original"
-msgstr "Αρχικός"
+msgstr "Αρχικό"
 
 msgid "Restaurar"
-msgstr "Αποκαθιστώ"
+msgstr "Επαναφορά"
 
 msgid "Desktop aplicado"
-msgstr "Εφαρμοσμένη επιφάνεια εργασίας"
+msgstr "Εφαρμόζεται στην επιφάνεια εργασίας"
 
 msgid "Modo performance"
 msgstr "Λειτουργία απόδοσης"
 
 msgid "BTRFS sem fsync"
-msgstr "BTRFS χωρίς συγχρονισμό"
+msgstr "BTRFS χωρίς fsync"
 
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
-msgstr "Χρησιμοποιώντας την απόδοση λογισμικού, μειώνεται η ποιότητα των διαφανειών."
-
-msgid "Desempenho em modo normal!"
-msgstr "Απόδοση σε κανονική λειτουργία!"
-
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"Η επιλεγμένη διαμόρφωση επιφάνειας εργασίας έχει ήδη χρησιμοποιηθεί σε αυτό το σύστημα,\n"
-"Θέλετε να επαναφέρετε τη διαμόρφωση που έχει ήδη χρησιμοποιηθεί;\n"
-"\n"
-"Επιλέξτε Όχι για να χρησιμοποιήσετε την προεπιλεγμένη ρύθμιση παραμέτρων συστήματος."
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"Εφαρμόστηκε διαμόρφωση!\n"
-"\n"
-"Αποσυνδεθείτε και συνδεθείτε ξανά\n"
-"έτσι ώστε η ρύθμιση παραμέτρων να ολοκληρωθεί από\n"
-"να εφαρμοστεί."
+msgstr "Χρησιμοποιώντας λογισμικό απόδοσης, η ποιότητα των διαφανειών μειώνεται."
 
 msgid "Temas, Desktop e Ajustes"
 msgstr "Θέματα, επιφάνεια εργασίας και ρυθμίσεις"
-
-msgid "Abrirr"
-msgstr "Ανοίγω"
-
-msgid "casa"
-msgstr "σπίτι"

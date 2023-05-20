@@ -1,74 +1,103 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the biglinux-session-and-themes-dev package.
+# This file is distributed under the same license as the biglinux-session-and-themes package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: biglinux-session-and-themes-dev\n"
+"Project-Id-Version: biglinux-session-and-themes\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"\n"
+"Vybraná konfigurácia pracovnej plochy už bola v tomto systéme použitá,\n"
+"chcete obnoviť už použitú konfiguráciu?\n"
+"\n"
+"Ak chcete použiť predvolenú konfiguráciu systému, vyberte možnosť nie.\n"
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Aplikovaná konfigurácia!\n"
+"\n"
+"Odhlásenie a opätovné prihlásenie\n"
+"na dokončenie konfigurácie\n"
+"použité."
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Ak používate prehliadač, reštartujte ho, aby ste použili zmeny."
+
+msgid "Desempenho em modo normal!"
+msgstr "Výkon v normálnom režime!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Výkon v režime výkonu!"
+
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "Buďte opatrní, že stratíte prístup k SnapShots, ste si istí, že chcete skryť grub?"
+msgstr "Dajte si pozor, že stratíte prístup k SnapShots, ste si istí, že chcete skryť grub?"
 
 msgid "Você saberá retornar o Grub em caso de falha?"
 msgstr "Budete vedieť, ako vrátiť Grub v prípade zlyhania?"
 
 msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Budete mať prístup k snímkam SnapShots bez prístupu k grafickému režimu?"
+msgstr "Budete mať prístup k SnapShots bez prístupu k režimu Graph?"
 
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "Ste si touto aplikáciou úplne istí?"
 
 msgid "Aplicando, aguarde..."
-msgstr "Podáva sa žiadosť, počkajte..."
+msgstr "Aplikácia, počkajte..."
 
 msgid "Concluído!"
 msgstr "Robené!"
 
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Ak používate ľubovoľný prehliadač, reštartujte ho, aby sa zmeny použili."
-
-msgid "Desempenho em modo performance!"
-msgstr "Výkon v režime výkonu!"
-
 msgid "Desempenho em modo otimizado!"
-msgstr "Výkon v optimalizovanom režime!"
+msgstr "Výkon v rozšírenom režime!"
 
 msgid "Temas"
 msgstr "Témy"
 
 msgid "Desktop"
-msgstr "Desktop"
+msgstr "Stolný počítač"
 
 msgid "Ajustes"
 msgstr "Nastavenia"
 
 msgid "Desempenho do desktop"
-msgstr "Výkon stolného počítača"
+msgstr "Výkon stolových počítačov"
 
 msgid "Desempenho"
 msgstr "Výkon"
 
 msgid "Aceleração do navegador"
-msgstr "Akcelerácia prehliadača"
+msgstr "Zrýchlenie prehliadača"
 
 msgid "Tema dos aplicativos"
-msgstr "Motív Aplikácie"
+msgstr "Téma aplikácie"
 
 msgid "Abrir"
 msgstr "Otvorený"
 
 msgid "Fechar"
-msgstr "Zavrieť"
+msgstr "Zatvoriť"
 
 msgid "Bordas arredondadas."
 msgstr "Zaoblené hrany."
@@ -77,42 +106,42 @@ msgid ""
 "Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
 "computadores<br>antigos ou ambientes virtualizados."
 msgstr ""
-"Táto téma má priehľadnosť s efektmi, ktoré<br>môže spomaliť systém na počítačoch<br>staré alebo "
-"virtualizované prostredia."
+"Táto téma obsahuje priehľadné obrázky s efektmi, ktoré môžu spomaliť<br>systém na starých "
+"počítačoch<br>alebo vo virtualizovaných prostrediach."
 
 msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
-msgstr "<b>Klasické</b>, <b>nové</b> a <b>moderné</b> fungujú lepšie."
+msgstr "Najlepšie sa osvedčili <b>klasické</b>, <b>nové</b> a <b>moderné</b>."
 
 msgid "Renderizar o desktop via software"
 msgstr "Vykresľovanie pracovnej plochy pomocou softvéru"
 
 msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
-msgstr "(Môže to byť užitočné v starších počítačoch, ale niektoré programy prestanú fungovať.)"
+msgstr "(Môže to byť užitočné na starších počítačoch, ale niektoré programy prestanú fungovať)"
 
 msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Výber programov, ktoré sa majú načítať do pamäte počas spúšťania systému"
+msgstr "Výber programov, ktoré sa majú načítať do pamäte pri štarte systému"
 
 msgid ""
 "O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
 "causa lentidão. Escolha a opção desejada:"
 msgstr ""
-"Predinštalovanie načíta programové súbory do pamäte, aby sa rýchlo spustili. Nadmerné používanie "
-"spôsobuje pomalosť. Vyberte požadovanú možnosť:"
+"Predbežné načítanie načíta súbory programu do pamäte, aby sa rýchlo spustili. Nadmerné používanie "
+"spôsobuje spomalenie. Vyberte požadovanú možnosť:"
 
 msgid "Ligar RGB do teclado"
-msgstr "Zapnutie RGB z klávesnice"
+msgstr "Pripojenie RGB z klávesnice"
 
 msgid "Automático"
-msgstr "Automatický"
+msgstr "Automatické"
 
 msgid "Ativar"
-msgstr "Aktivovať"
+msgstr "Aktivácia stránky"
 
 msgid "Desativar"
-msgstr "Vypnúť"
+msgstr "Deaktivácia stránky"
 
 msgid "Configurações do Brave"
-msgstr "Odvážne nastavenia"
+msgstr "Odvážne konfigurácie"
 
 msgid "Escolha a opção desejada:"
 msgstr "Vyberte požadovanú možnosť:"
@@ -127,31 +156,31 @@ msgid "Usabilidade"
 msgstr "Použiteľnosť"
 
 msgid "Botões da janela no lado esquerdo"
-msgstr "Tlačidlá okien na ľavej strane"
+msgstr "Tlačidlá okna na ľavej strane"
 
 msgid "Rolagem do mouse invertida"
-msgstr "Obrátené posúvanie myši"
+msgstr "Invertované posúvanie myšou"
 
 msgid "Rolagem do touchpad invertida"
-msgstr "Obrátené posúvanie touchpadom"
+msgstr "Posúvanie obráteného touchpadu"
 
 msgid "Pesquisar arquivos"
-msgstr "Vyhľadávanie súborov"
+msgstr "Vyhľadávanie v archívoch"
 
 msgid "Bloquear a edição da área de trabalho "
 msgstr "Blokovanie úprav pracovnej plochy "
 
 msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Skryť správcu zavádzania (GRUB)"
+msgstr "Skrytie správcu zavádzania systému (GRUB)"
 
 msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Aktivujte NumLock pri zapnutí systému"
+msgstr "Povolenie funkcie NumLock pri spustení systému"
 
 msgid "Tema aplicado"
 msgstr "Použitá téma"
 
 msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "Ak chcete dokončiť nastavenie, musíte reláciu reštartovať."
+msgstr "Na dokončenie konfigurácie musíte reštartovať reláciu."
 
 msgid "Configuração do Desktop"
 msgstr "Konfigurácia pracovnej plochy"
@@ -160,7 +189,7 @@ msgid ""
 "Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
 "configuração original?"
 msgstr ""
-"Už ste už používali túto pracovnú plochu, chcete obnoviť jej prispôsobenie alebo použiť pôvodnú "
+"Používali ste túto plochu už predtým, chcete obnoviť jej prispôsobenie alebo použiť pôvodnú "
 "konfiguráciu?"
 
 msgid "Sim"
@@ -173,7 +202,7 @@ msgid "Original"
 msgstr "Originál"
 
 msgid "Restaurar"
-msgstr "Obnoviť"
+msgstr "Obnovenie"
 
 msgid "Desktop aplicado"
 msgstr "Aplikovaná pracovná plocha"
@@ -185,41 +214,7 @@ msgid "BTRFS sem fsync"
 msgstr "BTRFS bez fsync"
 
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
-msgstr "Pomocou softvérového vykresľovania sa znižuje kvalita priehľadných fólií."
-
-msgid "Desempenho em modo normal!"
-msgstr "Výkon v normálnom režime!"
-
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"Zvolená konfigurácia pracovnej plochy už bola v tomto systéme použitá,\n"
-"Chcete obnoviť konfiguráciu, ktorá už bola použitá?\n"
-"\n"
-"Vyberte možnosť Nie, ak chcete použiť predvolenú konfiguráciu systému."
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"Použitá konfigurácia!\n"
-"\n"
-"Odhláste sa a znova sa prihláste\n"
-"tak, aby konfigurácia skončila od\n"
-"sa uplatňuje."
+msgstr "Pri softvérovom vykresľovaní sa znižuje kvalita priehľadov."
 
 msgid "Temas, Desktop e Ajustes"
-msgstr "Motívy, pracovná plocha a nastavenia"
-
-msgid "Abrirr"
-msgstr "Otvorený"
-
-msgid "casa"
-msgstr "dom"
+msgstr "Témy, pracovná plocha a nastavenia"

@@ -284,7 +284,10 @@ cat << EOF
           <!--<div class="centertext">-->
             <div id="desc">            
               <ul id="menu" class="img-label">
-              
+
+                <li>
+                  <a href="#" class="status-button-themeapply" onclick="_run('biglinux-themes.sh --apply biglinux')"><img src="biglinux.jpg"> <label>BigLinux</label></a>
+                </li>
                 <li>
                   <a href="#" class="status-button-themeapply" onclick="_run('biglinux-themes.sh --apply breeze')"><img src="breeze.jpg"> <label>Breeze</label></a>
                 </li>
@@ -296,7 +299,9 @@ cat << EOF
                 <li>
                   <a href="#" class="status-button-themeapply" onclick="_run('biglinux-themes.sh --apply fluent-solid')"><img src="fluent-solid.jpg"> <label>Fluent Solid</label></a>
                 </li>
-                
+                <li>
+                  <a href="#" class="status-button-themeapply" onclick="_run('biglinux-themes.sh --apply biglinux-dark')"><img src="biglinux-dark.jpg"> <label>BigLinux Dark</label></a>
+                </li>
                 <li>
                   <a href="#" class="status-button-themeapply" onclick="_run('biglinux-themes.sh --apply breeze-dark')"><img src="breeze-dark.jpg"> <label>Breeze Dark</label></a>
                 </li>
@@ -362,18 +367,6 @@ if [ "$desktop_actual" = "desk-x" ]; then
     checked_desktop_desk-x="checked"
 fi
 
-if [ "$desktop_actual" = "vanilla" ]; then
-    checked_desktop_vanilla="checked"
-fi
-
-if [ "$desktop_actual" = "modernaesthetic" ]; then
-    checked_desktop_modernaesthetic="checked"
-fi
-
-if [ "$desktop_actual" = "headtracker" ]; then
-    checked_desktop_headtracker="checked"
-fi
-
 cat << EOF
 
           <p style="text-align:center">$DESKTOP_FASTER</p>
@@ -386,9 +379,9 @@ cat << EOF
                 <li>
 EOF
   if [ -e "$HOME/.kdebiglinux/classic" ]; then
-    echo '<a id="linkClassic" href="#" class="status-button-classic"><img src="desktop-classic.svg"></a>'
+    echo '<a id="linkClassic" href="#" class="status-button-classic"><img src="/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/desktop-classic.svg"></a>'
   else
-    echo '<a id="linkClassic" href="#" class="status-button-desktopapply show-classic" onclick="_run(`change-plasma-theme --apply classic`)"><img src="desktop-classic.svg"></a>'
+    echo '<a id="linkClassic" href="#" class="status-button-desktopapply show-classic" onclick="_run(`change-plasma-theme --apply classic`)"><img src="/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/desktop-classic.svg"></a>'
   fi
 
   if [ "$desktop_actual" = "classic" ]; then
@@ -430,9 +423,9 @@ cat << EOF
                 <li>
 EOF
   if [ -e "$HOME/.kdebiglinux/new" ]; then
-    echo '<a id="linkNew" href="#" class="status-button-new"><img src="desktop-new.svg"></a>'
+    echo '<a id="linkNew" href="#" class="status-button-new"><img src="/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/desktop-new.svg"></a>'
   else
-    echo '<a id="linkNew" href="#" class="status-button-desktopapply show-new" onclick="_run(`change-plasma-theme --apply new`)"><img src="desktop-new.svg"></a>'
+    echo '<a id="linkNew" href="#" class="status-button-desktopapply show-new" onclick="_run(`change-plasma-theme --apply new`)"><img src="/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/desktop-new.svg"></a>'
   fi
 
 
@@ -476,9 +469,9 @@ cat << EOF
 EOF
 
   if [ -e "$HOME/.kdebiglinux/modern" ]; then
-    echo '<a id="linkModern" href="#" class="status-button-modern"><img src="desktop-modern.svg"></a>'
+    echo '<a id="linkModern" href="#" class="status-button-modern"><img src="/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/desktop-modern.svg"></a>'
   else
-    echo '<a id="linkModern" href="#" class="status-button-desktopapply show-modern" onclick="_run(`change-plasma-theme --apply modern`)"><img src="desktop-modern.svg"></a>'
+    echo '<a id="linkModern" href="#" class="status-button-desktopapply show-modern" onclick="_run(`change-plasma-theme --apply modern`)"><img src="/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/desktop-modern.svg"></a>'
   fi
 
   if [ "$desktop_actual" = "modern" ]; then
@@ -521,9 +514,9 @@ cat << EOF
 EOF
 
   if [ -e "$HOME/.kdebiglinux/kunity" ]; then
-    echo '<a id="linkKunity" href="#" class="status-button-kunity"><img src="desktop-k-unity.svg"></a>'
+    echo '<a id="linkKunity" href="#" class="status-button-kunity"><img src="/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/desktop-k-unity.svg"></a>'
   else
-    echo '<a id="linkKunity" href="#" class="status-button-desktopapply show-kunity" onclick="_run(`change-plasma-theme --apply kunity`)"><img src="desktop-k-unity.svg"></a>'
+    echo '<a id="linkKunity" href="#" class="status-button-desktopapply show-kunity" onclick="_run(`change-plasma-theme --apply kunity`)"><img src="/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/desktop-k-unity.svg"></a>'
   fi
 
   if [ "$desktop_actual" = "kunity" ]; then
@@ -566,9 +559,9 @@ cat << EOF
                 <li>
 EOF
   if [ -e "$HOME/.kdebiglinux/nextg" ]; then
-    echo '<a id="linkNextg" href="#" class="status-button-nextg"><img src="desktop-next-g.svg"></a>'
+    echo '<a id="linkNextg" href="#" class="status-button-nextg"><img src="/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/desktop-next-g.svg"></a>'
   else
-    echo '<a id="linkNextg" href="#" class="status-button-desktopapply show-nextg" onclick="_run(`change-plasma-theme --apply nextg`)"><img src="desktop-next-g.svg"></a>'
+    echo '<a id="linkNextg" href="#" class="status-button-desktopapply show-nextg" onclick="_run(`change-plasma-theme --apply nextg`)"><img src="/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/desktop-next-g.svg"></a>'
   fi
 
   if [ "$desktop_actual" = "nextg" ]; then
@@ -580,6 +573,10 @@ echo '        <div id="myDivNextg" style="display:none;"><svg xmlns="http://www.
   fi                  
 cat << EOF
                 </li>
+                
+                
+                
+
                 <div class="pop-up-nextg">
                   <div class="pop-up__title">$Config_desktop
                     <svg class="close" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle">
@@ -605,25 +602,27 @@ cat << EOF
                 </div>
 <!-- END NEXTG -->
 
-<!-- BEGIN VANILLA -->
+<!-- BEGIN DESK-X -->
                 <li>
 EOF
-  if [ -e "$HOME/.kdebiglinux/vanilla" ]; then
-    echo '<a id="linkVanilla" href="#" class="status-button-vanilla"><img src="desktop-vanilla.svg"></a>'
+
+  if [ -e "$HOME/.kdebiglinux/desk-x" ]; then
+    echo '<a id="linkDesk-x" href="#" class="status-button-desk-x"><img src="/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/desktop-desk-x.svg"></a>'
   else
-    echo '<a id="linkVanilla" href="#" class="status-button-desktopapply show-vanilla" onclick="_run(`change-plasma-theme --apply vanilla`)"><img src="desktop-vanilla.svg"></a>'
+    echo '<a id="linkDesk-x" href="#" class="status-button-desktopapply show-desk-x" onclick="_run(`change-plasma-theme --apply desk-x`)"><img src="/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/desktop-desk-x.svg"></a>'
   fi
 
-  if [ "$desktop_actual" = "vanilla" ]; then
-echo '        <div id="myDivVanilla"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="width:26px; top:-5px;" class="checkdesktop"><path fill="currentcolor" d="M0 256C0 
+  if [ "$desktop_actual" = "desk-x" ]; then
+echo '        <div id="myDivDeskx"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="width:26px; top:-5px;" class="checkdesktop"><path fill="currentcolor" d="M0 256C0 
               114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z"/></svg></div>'    
   else
-echo '        <div id="myDivVanilla" style="display:none;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="width:26px; top:-5px;" class="checkdesktop"><path fill="currentcolor" d="M0 256C0 
+echo '        <div id="myDivDeskx" style="display:none;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="width:26px; top:-5px;" class="checkdesktop"><path fill="currentcolor" d="M0 256C0 
               114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z"/></svg></div>'                
   fi                  
 cat << EOF
                 </li>
-                <div class="pop-up-vanilla">
+                
+                <div class="pop-up-desk-x">
                   <div class="pop-up__title">$Config_desktop
                     <svg class="close" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle">
                       <circle cx="12" cy="12" r="10" />
@@ -635,151 +634,19 @@ cat << EOF
                     <ul id="menu">
                       <li>
                         <div class="content-button-wrapper" style="text-align: right;">
-                          <button class="content-button close status-button-desktopapply show-vanilla" onclick="_run('change-plasma-theme --apply vanilla clean')">$Original</button>
+                          <button class="content-button close status-button-desktopapply show-desk-x" onclick="_run('change-plasma-theme --apply desk-x clean')">$Original</button>
                         </div>
                       </li>
                       <li>
                         <div class="content-button-wrapper" style="text-align: left;">
-                          <button class="content-button close status-button-desktopapply show-vanilla" onclick="_run('change-plasma-theme --apply vanilla')">$Restore</button>
+                          <button class="content-button close status-button-desktopapply show-desk-x" onclick="_run('change-plasma-theme --apply desk-x')">$Restore</button>
                         </div>
                       </li>
                     </ul>
                   </div>
                 </div>
-<!-- END VANILLA -->
+<!-- END DESK-X -->
 
-<!-- BEGIN ModernaEsthetic -->
-                <li>
-EOF
-  if [ -e "$HOME/.kdebiglinux/modernaesthetic" ]; then
-    echo '<a id="linkModernaEsthetic" href="#" class="status-button-modernaesthetic"><img src="desktop-modernaesthetic.svg"></a>'
-  else
-    echo '<a id="linkModernaEsthetic" href="#" class="status-button-desktopapply show-modernaesthetic" onclick="_run(`change-plasma-theme --apply modernaesthetic`)"><img src="desktop-modernaesthetic.svg"></a>'
-  fi
-
-  if [ "$desktop_actual" = "modernaesthetic" ]; then
-echo '        <div id="myDivModernaEsthetic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="width:26px; top:-5px;" class="checkdesktop"><path fill="currentcolor" d="M0 256C0 
-              114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z"/></svg></div>'    
-  else
-echo '        <div id="myDivModernaEsthetic" style="display:none;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="width:26px; top:-5px;" class="checkdesktop"><path fill="currentcolor" d="M0 256C0 
-              114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z"/></svg></div>'                
-  fi                  
-cat << EOF
-                </li>
-                <div class="pop-up-modernaesthetic">
-                  <div class="pop-up__title">$Config_desktop
-                    <svg class="close" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle">
-                      <circle cx="12" cy="12" r="10" />
-                      <path d="M15 9l-6 6M9 9l6 6" />
-                    </svg>
-                  </div>
-                  <div class="pop-up__subtitle">$Desktop_detect</div>                 
-                  <div id="desc">
-                    <ul id="menu">
-                      <li>
-                        <div class="content-button-wrapper" style="text-align: right;">
-                          <button class="content-button close status-button-desktopapply show-modernaesthetic " onclick="_run('change-plasma-theme --apply modernaesthetic clean')">$Original</button>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="content-button-wrapper" style="text-align: left;">
-                          <button class="content-button close status-button-desktopapply show-modernaesthetic" onclick="_run('change-plasma-theme --apply modernaesthetic')">$Restore</button>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-<!-- END modernaesthetic -->
-
-<!-- BEGIN HEADTRACKER -->
-                <li>
-EOF
-  if [ -e "$HOME/.kdebiglinux/headtracker" ]; then
-    echo '<a id="linkHeadTracker" href="#" class="status-button-headtracker"><img src="desktop-headtracker.svg"></a>'
-  else
-    echo '<a id="linkHeadTracker" href="#" class="status-button-desktopapply show-headtracker" onclick="_run(`change-plasma-theme --apply headtracker`)"><img src="desktop-headtracker.svg"></a>'
-  fi
-
-  if [ "$desktop_actual" = "headtracker" ]; then
-echo '        <div id="myDivHeadTracker"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="width:26px; top:-5px;" class="checkdesktop"><path fill="currentcolor" d="M0 256C0 
-              114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z"/></svg></div>'    
-  else
-echo '        <div id="myDivHeadTracker" style="display:none;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="width:26px; top:-5px;" class="checkdesktop"><path fill="currentcolor" d="M0 256C0 
-              114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z"/></svg></div>'                
-  fi                  
-cat << EOF
-                </li>
-                <div class="pop-up-headtracker">
-                  <div class="pop-up__title">$Config_desktop
-                    <svg class="close" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle">
-                      <circle cx="12" cy="12" r="10" />
-                      <path d="M15 9l-6 6M9 9l6 6" />
-                    </svg>
-                  </div>
-                  <div class="pop-up__subtitle">$Desktop_detect</div>                 
-                  <div id="desc">
-                    <ul id="menu">
-                      <li>
-                        <div class="content-button-wrapper" style="text-align: right;">
-                          <button class="content-button close status-button-desktopapply show-headtracker " onclick="_run('change-plasma-theme --apply headtracker clean')">$Original</button>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="content-button-wrapper" style="text-align: left;">
-                          <button class="content-button close status-button-desktopapply show-headtracker" onclick="_run('change-plasma-theme --apply headtracker')">$Restore</button>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-<!-- END VANILLA -->
-EOF
-
-# <!-- BEGIN DESK-X -->
-#                 <li>
-# EOF
-# 
-#   if [ -e "$HOME/.kdebiglinux/desk-x" ]; then
-#     echo '<a id="linkDesk-x" href="#" class="status-button-desk-x"><img src="desktop-desk-x.svg"></a>'
-#   else
-#     echo '<a id="linkDesk-x" href="#" class="status-button-desktopapply show-desk-x" onclick="_run(`change-plasma-theme --apply desk-x`)"><img src="desktop-desk-x.svg"></a>'
-#   fi
-# 
-#   if [ "$desktop_actual" = "desk-x" ]; then
-# echo '        <div id="myDivDeskx"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="width:26px; top:-5px;" class="checkdesktop"><path fill="currentcolor" d="M0 256C0 
-#               114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z"/></svg></div>'    
-#   else
-# echo '        <div id="myDivDeskx" style="display:none;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="width:26px; top:-5px;" class="checkdesktop"><path fill="currentcolor" d="M0 256C0 
-#               114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z"/></svg></div>'                
-#   fi                  
-# cat << EOF
-#                 </li>
-#                 
-#                 <div class="pop-up-desk-x">
-#                   <div class="pop-up__title">$Config_desktop
-#                     <svg class="close" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle">
-#                       <circle cx="12" cy="12" r="10" />
-#                       <path d="M15 9l-6 6M9 9l6 6" />
-#                     </svg>
-#                   </div>
-#                   <div class="pop-up__subtitle">$Desktop_detect</div>                 
-#                   <div id="desc">
-#                     <ul id="menu">
-#                       <li>
-#                         <div class="content-button-wrapper" style="text-align: right;">
-#                           <button class="content-button close status-button-desktopapply show-desk-x" onclick="_run('change-plasma-theme --apply desk-x clean')">$Original</button>
-#                         </div>
-#                       </li>
-#                       <li>
-#                         <div class="content-button-wrapper" style="text-align: left;">
-#                           <button class="content-button close status-button-desktopapply show-desk-x" onclick="_run('change-plasma-theme --apply desk-x')">$Restore</button>
-#                         </div>
-#                       </li>
-#                     </ul>
-#                   </div>
-#                 </div>
-# <!-- END DESK-X -->
-cat << EOF
 <!-- BEGIN RESTART SESSION -->
                 <div class="pop-up-desktopapply">
                   <div class="pop-up__title">$Desktop_apply
@@ -1181,19 +1048,6 @@ fi
 if [ "$desktop_actual" = "desk-x" ]; then
   echo '<script>$(document).ready(function(){$(`#linkDesk-x`).toggleClass("disabled-link");});</script>'
 fi
-
-if [ "$desktop_actual" = "vanilla" ]; then
-  echo '<script>$(document).ready(function(){$(`#linkVanilla`).toggleClass("disabled-link");});</script>'
-fi
-
-if [ "$desktop_actual" = "modernaesthetic" ]; then
-  echo '<script>$(document).ready(function(){$(`#linkModernaEsthetic`).toggleClass("disabled-link");});</script>'
-fi
-
-if [ "$desktop_actual" = "headtracker" ]; then
-  echo '<script>$(document).ready(function(){$(`#linkHeadTracker`).toggleClass("disabled-link");});</script>'
-fi
-
 cat << EOF
 </body>
 </html>

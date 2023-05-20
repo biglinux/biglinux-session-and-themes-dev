@@ -14,9 +14,6 @@ $(document).ready(function(){
         $("#myDivKunity").css("display", "none");
         $("#myDivNextg").css("display", "none");
         $("#myDivDeskx").css("display", "none");
-        $("#myDivVanilla").css("display", "none");
-        $("#myDivModernaEsthetic").css("display", "none");
-        $("#myDivHeadTracker").css("display", "none");
         
         $('a[id$="linkClassic"]').toggleClass("disabled-link");
         $('a[id$="linkNew"]').removeClass("disabled-link");
@@ -24,9 +21,6 @@ $(document).ready(function(){
         $('a[id$="linkKunity"]').removeClass("disabled-link");
         $('a[id$="linkNextg"]').removeClass("disabled-link");
         $('a[id$="linkDesk-x"]').removeClass("disabled-link");
-        $('a[id$="linkVanilla"]').removeClass("disabled-link");
-        $('a[id$="linkModernaEsthetic"]').removeClass("disabled-link");
-        $('a[id$="linkHeadTracker"]').removeClass("disabled-link");
     });
     // Set div display to New
     $(".show-new").click(function(){
@@ -36,9 +30,6 @@ $(document).ready(function(){
         $("#myDivKunity").css("display", "none");
         $("#myDivNextg").css("display", "none");
         $("#myDivDeskx").css("display", "none");
-        $("#myDivVanilla").css("display", "none");
-        $("#myDivModernaEsthetic").css("display", "none");
-        $("#myDivHeadTracker").css("display", "none");
         
         $('a[id$="linkClassic"]').removeClass("disabled-link");
         $('a[id$="linkNew"]').toggleClass("disabled-link");
@@ -46,9 +37,6 @@ $(document).ready(function(){
         $('a[id$="linkKunity"]').removeClass("disabled-link");
         $('a[id$="linkNextg"]').removeClass("disabled-link");
         $('a[id$="linkDesk-x"]').removeClass("disabled-link");
-        $('a[id$="linkVanilla"]').removeClass("disabled-link");
-        $('a[id$="linkModernaEsthetic"]').removeClass("disabled-link");
-        $('a[id$="linkHeadTracker"]').removeClass("disabled-link");
     });
     // Set div display to Modern
     $(".show-modern").click(function(){
@@ -58,9 +46,6 @@ $(document).ready(function(){
         $("#myDivKunity").css("display", "none");
         $("#myDivNextg").css("display", "none");
         $("#myDivDeskx").css("display", "none");
-        $("#myDivVanilla").css("display", "none");
-        $("#myDivModernaEsthetic").css("display", "none");
-        $("#myDivHeadTracker").css("display", "none");
         
         $('a[id$="linkClassic"]').removeClass("disabled-link");
         $('a[id$="linkNew"]').removeClass("disabled-link");
@@ -68,9 +53,6 @@ $(document).ready(function(){
         $('a[id$="linkKunity"]').removeClass("disabled-link");
         $('a[id$="linkNextg"]').removeClass("disabled-link");
         $('a[id$="linkDesk-x"]').removeClass("disabled-link");
-        $('a[id$="linkVanilla"]').removeClass("disabled-link");
-        $('a[id$="linkModernaEsthetic"]').removeClass("disabled-link");
-        $('a[id$="linkHeadTracker"]').removeClass("disabled-link");
     });
     // Set div display Kunity
     $(".show-kunity").click(function(){
@@ -80,9 +62,6 @@ $(document).ready(function(){
         $("#myDivKunity").css("display", "block");
         $("#myDivNextg").css("display", "none");
         $("#myDivDeskx").css("display", "none");
-        $("#myDivVanilla").css("display", "none");
-        $("#myDivModernaEsthetic").css("display", "none");
-        $("#myDivHeadTracker").css("display", "none");
         
         $('a[id$="linkClassic"]').removeClass("disabled-link");
         $('a[id$="linkNew"]').removeClass("disabled-link");
@@ -90,9 +69,6 @@ $(document).ready(function(){
         $('a[id$="linkKunity"]').toggleClass("disabled-link");
         $('a[id$="linkNextg"]').removeClass("disabled-link");
         $('a[id$="linkDesk-x"]').removeClass("disabled-link");
-        $('a[id$="linkVanilla"]').removeClass("disabled-link");
-        $('a[id$="linkModernaEsthetic"]').removeClass("disabled-link");
-        $('a[id$="linkHeadTracker"]').removeClass("disabled-link");
     });
     // Set div display Nextg
     $(".show-nextg").click(function(){
@@ -102,9 +78,6 @@ $(document).ready(function(){
         $("#myDivKunity").css("display", "none");
         $("#myDivNextg").css("display", "block");
         $("#myDivDeskx").css("display", "none");
-        $("#myDivVanilla").css("display", "none");
-        $("#myDivModernaEsthetic").css("display", "none");
-        $("#myDivHeadTracker").css("display", "none");
         
         $('a[id$="linkClassic"]').removeClass("disabled-link");
         $('a[id$="linkNew"]').removeClass("disabled-link");
@@ -112,9 +85,6 @@ $(document).ready(function(){
         $('a[id$="linkKunity"]').removeClass("disabled-link");
         $('a[id$="linkNextg"]').toggleClass("disabled-link");
         $('a[id$="linkDesk-x"]').removeClass("disabled-link");
-        $('a[id$="linkVanilla"]').removeClass("disabled-link");
-        $('a[id$="linkModernaEsthetic"]').removeClass("disabled-link");
-        $('a[id$="linkHeadTracker"]').removeClass("disabled-link");
     });
     // Set div display Desk-x
     $(".show-desk-x").click(function(){
@@ -124,9 +94,6 @@ $(document).ready(function(){
         $("#myDivKunity").css("display", "none");
         $("#myDivNextg").css("display", "none");
         $("#myDivDeskx").css("display", "block");
-        $("#myDivVanilla").css("display", "none");
-        $("#myDivModernaEsthetic").css("display", "none");
-        $("#myDivHeadTracker").css("display", "none");
         
         $('a[id$="linkClassic"]').removeClass("disabled-link");
         $('a[id$="linkNew"]').removeClass("disabled-link");
@@ -134,75 +101,6 @@ $(document).ready(function(){
         $('a[id$="linkKunity"]').removeClass("disabled-link");
         $('a[id$="linkNextg"]').removeClass("disabled-link");
         $('a[id$="linkDesk-x"]').toggleClass("disabled-link");
-        $('a[id$="linkVanilla"]').removeClass("disabled-link");
-        $('a[id$="linkModernaEsthetic"]').removeClass("disabled-link");
-        $('a[id$="linkHeadTracker"]').removeClass("disabled-link");
-    });
-    // Set div display Vanilla
-    $(".show-vanilla").click(function(){
-        $("#myDivClassic").css("display", "none");
-        $("#myDivNew").css("display", "none");
-        $("#myDivModern").css("display", "none");
-        $("#myDivKunity").css("display", "none");
-        $("#myDivNextg").css("display", "none");
-        $("#myDivDeskx").css("display", "none");
-        $("#myDivVanilla").css("display", "block");
-        $("#myDivModernaEsthetic").css("display", "none");
-        $("#myDivHeadTracker").css("display", "none");
-        
-        $('a[id$="linkClassic"]').removeClass("disabled-link");
-        $('a[id$="linkNew"]').removeClass("disabled-link");
-        $('a[id$="linkModern"]').removeClass("disabled-link");
-        $('a[id$="linkKunity"]').removeClass("disabled-link");
-        $('a[id$="linkNextg"]').removeClass("disabled-link");
-        $('a[id$="linkDesk-x"]').removeClass("disabled-link");
-        $('a[id$="linkVanilla"]').toggleClass("disabled-link");
-        $('a[id$="linkModernaEsthetic"]').removeClass("disabled-link");
-        $('a[id$="linkHeadTracker"]').removeClass("disabled-link");
-    });
-    // Set div display ModernaEsthetic
-    $(".show-modernaesthetic").click(function(){
-        $("#myDivClassic").css("display", "none");
-        $("#myDivNew").css("display", "none");
-        $("#myDivModern").css("display", "none");
-        $("#myDivKunity").css("display", "none");
-        $("#myDivNextg").css("display", "none");
-        $("#myDivDeskx").css("display", "none");
-        $("#myDivVanilla").css("display", "none");
-        $("#myDivModernaEsthetic").css("display", "block");
-        $("#myDivHeadTracker").css("display", "none");
-        
-        $('a[id$="linkClassic"]').removeClass("disabled-link");
-        $('a[id$="linkNew"]').removeClass("disabled-link");
-        $('a[id$="linkModern"]').removeClass("disabled-link");
-        $('a[id$="linkKunity"]').removeClass("disabled-link");
-        $('a[id$="linkNextg"]').removeClass("disabled-link");
-        $('a[id$="linkDesk-x"]').removeClass("disabled-link");
-        $('a[id$="linkVanilla"]').removeClass("disabled-link");
-        $('a[id$="linkModernaEsthetic"]').toggleClass("disabled-link");
-        $('a[id$="linkHeadTracker"]').removeClass("disabled-link");
-    });
-    // Set div display HeadTracker
-    $(".show-headtracker").click(function(){
-        $("#myDivClassic").css("display", "none");
-        $("#myDivNew").css("display", "none");
-        $("#myDivModern").css("display", "none");
-        $("#myDivKunity").css("display", "none");
-        $("#myDivNextg").css("display", "none");
-        $("#myDivDeskx").css("display", "none");
-        $("#myDivVanilla").css("display", "none");
-        $("#myDivModernaEsthetic").css("display", "none");
-        $("#myDivHeadTracker").css("display", "block");
-        
-        $('a[id$="linkClassic"]').removeClass("disabled-link");
-        $('a[id$="linkNew"]').removeClass("disabled-link");
-        $('a[id$="linkModern"]').removeClass("disabled-link");
-        $('a[id$="linkKunity"]').removeClass("disabled-link");
-        $('a[id$="linkNextg"]').removeClass("disabled-link");
-        $('a[id$="linkDesk-x"]').removeClass("disabled-link");
-        $('a[id$="linkVanilla"]').removeClass("disabled-link");
-        $('a[id$="linkModernaEsthetic"]').removeClass("disabled-link");
-        $('a[id$="linkHeadTracker"]').toggleClass("disabled-link");
     });
 });
 //APLICAR MARCA E ATIVA/DESATIVA CSS FIM
@@ -646,88 +544,6 @@ $(".pop-up-desk-x .close").click(function () {
   $(".pop-up-desk-x").removeClass("visible");
 });
 // MODAL NEXTG FIM
-
-// MODAL VANILLA
-$(document).click(function (e) {
-  var container = $(".status-button-vanilla");
-  var dd = $(".dropdown");
-  if (!container.is(e.target) && container.has(e.target).length === 0) {
-    dd.removeClass("is-active");
-  }
-});
-
-$(function () {
-  $(".status-button-vanilla:not(.open)").on("click", function (e) {
-    $(".overlay-app").addClass("is-active");
-  });
-  $(".pop-up-vanilla .close").click(function () {
-    $(".overlay-app").removeClass("is-active");
-  });
-});
-
-$(".status-button-vanilla:not(.open)").click(function () {
-  $(".pop-up-vanilla").addClass("visible");
-});
-
-$(".pop-up-vanilla .close").click(function () {
-  $(".pop-up-vanilla").removeClass("visible");
-});
-// MODAL VANILLA FIM
-
-// MODAL ModernaEsthetic
-$(document).click(function (e) {
-  var container = $(".status-button-modernaesthetic");
-  var dd = $(".dropdown");
-  if (!container.is(e.target) && container.has(e.target).length === 0) {
-    dd.removeClass("is-active");
-  }
-});
-
-$(function () {
-  $(".status-button-modernaesthetic:not(.open)").on("click", function (e) {
-    $(".overlay-app").addClass("is-active");
-  });
-  $(".pop-up-modernaesthetic .close").click(function () {
-    $(".overlay-app").removeClass("is-active");
-  });
-});
-
-$(".status-button-modernaesthetic:not(.open)").click(function () {
-  $(".pop-up-modernaesthetic").addClass("visible");
-});
-
-$(".pop-up-modernaesthetic .close").click(function () {
-  $(".pop-up-modernaesthetic").removeClass("visible");
-});
-// MODAL ModernaEsthetic FIM
-
-// MODAL HEADTRACKER
-$(document).click(function (e) {
-  var container = $(".status-button-headtracker");
-  var dd = $(".dropdown");
-  if (!container.is(e.target) && container.has(e.target).length === 0) {
-    dd.removeClass("is-active");
-  }
-});
-
-$(function () {
-  $(".status-button-headtracker:not(.open)").on("click", function (e) {
-    $(".overlay-app").addClass("is-active");
-  });
-  $(".pop-up-headtracker .close").click(function () {
-    $(".overlay-app").removeClass("is-active");
-  });
-});
-
-$(".status-button-headtracker:not(.open)").click(function () {
-  $(".pop-up-headtracker").addClass("visible");
-});
-
-$(".pop-up-headtracker .close").click(function () {
-  $(".pop-up-headtracker").removeClass("visible");
-});
-// MODAL HEADTRACKER FIM
-
 
 
 const toggleButton = document.querySelector(".dark-light");

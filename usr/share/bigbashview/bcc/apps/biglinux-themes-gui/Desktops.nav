@@ -1,0 +1,94 @@
+#!/bin/bash
+
+grid start -rowColumn 3
+
+desktops=(
+classic
+new
+modern
+k-unity
+next-g
+vanilla
+)
+
+for i in "${desktops[@]}"; do
+	desktop=$i
+	if [ "$(cat "$HOME"/.kdebiglinux/lastused)" = "$desktop" ];then
+		checked="-iconCheck icons/checked.svg"
+	else
+		checked=
+	fi
+
+	grid colStart
+		cards -border 0 -shadow 0 -image Desktops/desktop-${desktop}.svg $checked -iconCheckSize 22 -iconCheckPosY top -iconCheckPosX end -id ${desktop} -imagePaddingX 3
+	grid colEnd
+	
+	modal start -id "${i}" -title $"Configuração do Desktop"
+# 	    modal body -run Desktops/${i}.modal
+		echo $"Você já utilizou esse desktop antes, deseja restaurar sua personalização ou utilizar a configuração original?"
+		grid start -rowColumn 2
+			grid colStart
+				button -buttonType primary -buttonText $"Original" -run "change-plasma-theme --apply ${desktop} clean"
+		    grid colEnd
+			grid colStart
+				button -buttonType primary -buttonText $"Restaurar" -run "change-plasma-theme --apply ${desktop}"
+		    grid colEnd
+	    grid end
+    modal end
+    
+
+done
+grid end
+
+
+
+
+# if [ "$(cat $HOME/.kdebiglinux/lastused)" = "new" ];then
+# checked="-iconCheck icons/checked.svg"
+# else
+# checked=
+# fi 
+# 
+# grid colStart
+# cards -border 0 -shadow 0 -image Desktops/desktop-new.svg $checked -iconCheckSize 22 -iconCheckPosY top -iconCheckPosX end -run xpto.run
+# grid colEnd
+# 
+# if [ "$(cat $HOME/.kdebiglinux/lastused)" = "modern" ];then
+# checked="-iconCheck icons/checked.svg"
+# else
+# checked=
+# fi 
+# 
+# grid colStart
+# cards -border 0 -shadow 0 -image Desktops/desktop-modern.svg $checked -iconCheckSize 22 -iconCheckPosY top -iconCheckPosX end -run xpto.run
+# grid colEnd
+# 
+# if [ "$(cat $HOME/.kdebiglinux/lastused)" = "k-unity" ];then
+# checked="-iconCheck icons/checked.svg"
+# else
+# checked=
+# fi 
+# 
+# grid colStart
+# cards -border 0 -shadow 0 -image Desktops/desktop-k-unity.svg $checked -iconCheckSize 22 -iconCheckPosY top -iconCheckPosX end -run xpto.run
+# grid colEnd
+# 
+# if [ "$(cat $HOME/.kdebiglinux/lastused)" = "next-g" ];then
+# checked="-iconCheck icons/checked.svg"
+# else
+# checked=
+# fi 
+# 
+# grid colStart
+# cards -border 0 -shadow 0 -image Desktops/desktop-next-g.svg $checked -iconCheckSize 22 -iconCheckPosY top -iconCheckPosX end -run xpto.run
+# grid colEnd
+# 
+# if [ "$(cat $HOME/.kdebiglinux/lastused)" = "vanilla" ];then
+# checked="-iconCheck icons/checked.svg"
+# else
+# checked=
+# fi 
+# 
+# grid colStart
+# cards -border 0 -shadow 0 -image Desktops/desktop-vanilla.svg $checked -iconCheckSize 22 -iconCheckPosY top -iconCheckPosX end -run xpto.run
+# grid colEnd

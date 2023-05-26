@@ -22,7 +22,12 @@ xprop -id "$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" -f WM_CLASS 8s -
 PATH+=":/usr/share/bigbashview/bcc/shell/"
 
 html start
-html header
+if [ "$checked_refresh" = "checked" ]; then
+    activeTab="Desktops"
+else
+    activeTab="Temas"
+fi
+navTabs -title $"Temas" -id Temas -title $"Desktops" -id Desktops -activeTab ${activeTab}
 
 
 ## old CODE ##

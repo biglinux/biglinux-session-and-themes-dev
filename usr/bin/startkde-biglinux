@@ -192,7 +192,6 @@ if [ "$(grep -i 'SingleClick=' ~/.config/kdeglobals)" = "" ]; then
 fi
 
 # Fix ssh agent
-# SSH_ASKPASS=/usr/bin/ksshaskpass
 if [ -z "$SSH_AGENT_PID" ]; then
   eval "$(ssh-agent -s)"
 fi
@@ -219,6 +218,7 @@ for i in "$HOME/.config/konsolerc" "$HOME/.config/dolphinrc"; do
 
 done
 
+
 # Fix to GTK4 theme
 
 export GTK_THEME=
@@ -243,6 +243,8 @@ if [ -L "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray" ]; then
   rm -f "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray"
   rm -f "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.private.systemtray"
 fi
+
+
 
 # Less transparent Fluent plasma theme if dont have 3d accel
 if [ "$(glxinfo | grep llvmpipe)" = "" ]; then

@@ -226,5 +226,5 @@ msgstr ""
 "again for the configuration to finish\n"
 "applied."
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Themes, Desktop and Settings"
+msgid "Temas e Desktops"
+msgstr "Themes and Desktops"

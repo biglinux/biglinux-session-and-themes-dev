@@ -226,5 +226,5 @@ msgstr ""
 "for at konfigurationen er færdig\n"
 "anvendes."
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Temaer, skrivebord og indstillinger"
+msgid "Temas e Desktops"
+msgstr "Temaer og desktops"

@@ -226,5 +226,5 @@ msgstr ""
 "kako bi konfiguracija završila\n"
 "primjenjivati."
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Teme, radna površina i prilagodbe"
+msgid "Temas e Desktops"
+msgstr "Teme i radne površine"

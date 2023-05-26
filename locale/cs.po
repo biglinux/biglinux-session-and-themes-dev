@@ -224,5 +224,5 @@ msgstr ""
 "pro dokončení konfigurace\n"
 "použity."
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Motivy, plocha a nastavení"
+msgid "Temas e Desktops"
+msgstr "Motivy a plochy"

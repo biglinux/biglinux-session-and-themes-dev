@@ -228,5 +228,5 @@ msgstr ""
 "pour que la configuration soit terminée\n"
 "appliqué."
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Thèmes, bureau et paramètres"
+msgid "Temas e Desktops"
+msgstr "Thèmes et bureaux"

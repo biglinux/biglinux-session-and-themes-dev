@@ -218,5 +218,5 @@ msgstr ""
 "コンフィギュレーションが終了するまでの間\n"
 "を適用しました。"
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "テーマ、デスクトップ、設定"
+msgid "Temas e Desktops"
+msgstr "テーマとデスクトップ"

@@ -226,5 +226,5 @@ msgstr ""
 "för att konfigurationen ska vara klar\n"
 "tillämpas."
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Teman, skrivbord och inställningar"
+msgid "Temas e Desktops"
+msgstr "Teman och skrivbord"

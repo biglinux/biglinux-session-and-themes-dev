@@ -228,5 +228,5 @@ msgstr ""
 "για να ολοκληρωθεί η διαμόρφωση\n"
 "εφαρμόζεται."
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Θέματα, επιφάνεια εργασίας και ρυθμίσεις"
+msgid "Temas e Desktops"
+msgstr "Θέματα και επιφάνειες εργασίας"

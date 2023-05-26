@@ -218,5 +218,5 @@ msgstr ""
 "以使配置完成\n"
 "适用。"
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "主题、桌面和设置"
+msgid "Temas e Desktops"
+msgstr "主题和桌面"

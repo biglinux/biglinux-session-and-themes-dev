@@ -218,5 +218,5 @@ msgstr ""
 "구성을 마칠 수 있습니다.\n"
 "적용될 수 있습니다."
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "테마, 데스크톱 및 조정"
+msgid "Temas e Desktops"
+msgstr "테마 및 데스크탑"

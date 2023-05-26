@@ -224,5 +224,5 @@ msgstr ""
 "\n"
 "Вийдіть і знову ввійдіть для завершення конфігурації застосовуватися."
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Теми, робочий стіл і налаштування"
+msgid "Temas e Desktops"
+msgstr "Теми та робочі столи"

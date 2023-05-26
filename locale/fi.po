@@ -226,5 +226,5 @@ msgstr ""
 "jotta konfigurointi saadaan valmiiksi\n"
 "sovellettu."
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Teemat, työpöytä ja asetukset"
+msgid "Temas e Desktops"
+msgstr "Teemat ja työpöydät"

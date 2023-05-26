@@ -226,5 +226,5 @@ msgstr ""
 "a konfiguráció befejezéséhez\n"
 "alkalmazott."
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Témák, Asztal és beállítások"
+msgid "Temas e Desktops"
+msgstr "Témák és asztalok"

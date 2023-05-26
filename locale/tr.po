@@ -226,5 +226,5 @@ msgstr ""
 "yapılandırmanın bitmesi için\n"
 "uygulandı."
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Temalar, Masaüstü ve Ayarlar"
+msgid "Temas e Desktops"
+msgstr "Temalar ve Masaüstleri"

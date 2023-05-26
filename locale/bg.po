@@ -226,5 +226,5 @@ msgstr ""
 "за завършване на конфигурацията\n"
 "прилага се."
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Теми, работен плот и настройки"
+msgid "Temas e Desktops"
+msgstr "Теми и работни плотове"

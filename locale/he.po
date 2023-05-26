@@ -218,5 +218,5 @@ msgstr ""
 "עבור התצורה כדי לסיים\n"
 "להיות מיושם."
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "ערכות נושא, שולחן עבודה והתאמות"
+msgid "Temas e Desktops"
+msgstr "ערכות נושא ושולחנות עבודה"

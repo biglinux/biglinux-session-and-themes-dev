@@ -226,5 +226,5 @@ msgstr ""
 "konfiguratsiooni lõpetamiseks\n"
 "kohaldatud."
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Teemad, töölaud ja seaded"
+msgid "Temas e Desktops"
+msgstr "Teemad ja töölauad"

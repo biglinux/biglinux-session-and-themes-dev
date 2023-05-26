@@ -224,5 +224,5 @@ msgstr ""
 "fyrir stillingar til að klára\n"
 "vera beitt."
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Þemu, skrifborð og klip"
+msgid "Temas e Desktops"
+msgstr "Þemu og skjáborð"

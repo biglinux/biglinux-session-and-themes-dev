@@ -226,5 +226,5 @@ msgstr ""
 "pentru finalizarea configurării\n"
 "aplicat."
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Teme, desktop și setări"
+msgid "Temas e Desktops"
+msgstr "Teme și desktopuri"

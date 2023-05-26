@@ -226,5 +226,5 @@ msgstr ""
 "для завершения конфигурации\n"
 "применяется."
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Темы, рабочий стол и настройки"
+msgid "Temas e Desktops"
+msgstr "Темы и рабочие столы"

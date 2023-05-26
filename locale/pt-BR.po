@@ -298,5 +298,5 @@ msgstr ""
 "ser aplicada."
 
 #
-msgid "Temas, Desktop e Ajustes"
-msgstr "Temas, Desktop e Ajustes"
+msgid "Temas e Desktops"
+msgstr "Temas e Desktops"

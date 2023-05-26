@@ -62,6 +62,10 @@ msgid "Temas"
 msgstr "Temas"
 
 #
+msgid "Desktops"
+msgstr "Desktops"
+
+#
 msgid "Desktop"
 msgstr "Desktop"
 
@@ -252,6 +256,14 @@ msgid ""
 msgstr ""
 "Utilizando renderização por software, a qualidade das transparências está "
 "reduzida."
+
+#
+msgid ""
+"Você já utilizou esse desktop antes, deseja restaurar sua personalização ou "
+"utilizar a configuração original?"
+msgstr ""
+"Você já utilizou esse desktop antes, deseja restaurar sua personalização ou "
+"utilizar a configuração original?"
 
 #
 msgid "Desempenho em modo normal!"

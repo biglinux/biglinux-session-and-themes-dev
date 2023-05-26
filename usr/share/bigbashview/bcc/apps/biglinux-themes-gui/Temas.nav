@@ -22,7 +22,7 @@ for i in "${temas[@]}"; do
 	fi 
 
 	grid colStart
-	cards -border 0 -shadow 0 -image Temas/${tema}.jpg $checked -iconCheckSize 22 -iconCheckPosY top -iconCheckPosX end -run "biglinux-themes.sh --apply ${tema}; xdotool key F5" -title "$(echo ${tema} | sed -r 's/\b[a-z]+/\u&/g')" -imagePaddingY "-1"
+		cards -border 0 -shadow 0 -image Temas/${tema}.jpg $checked -iconCheckSize 22 -iconCheckPosY top -iconCheckPosX end -run "biglinux-themes.sh --apply ${tema}; xdotool key F5" -title "$(echo ${tema} | sed -r 's/\b[a-z]+/\u&/g')" -imagePaddingY "-1"
 	grid colEnd
 
 done

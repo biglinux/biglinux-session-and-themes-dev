@@ -25,18 +25,38 @@ for i in "${desktops[@]}"; do
 	
 	modal start -id "${i}" -title $"Configuração do Desktop"
 # 	    modal body -run Desktops/${i}.modal
-		echo $"Você já utilizou esse desktop antes, deseja restaurar sua personalização ou utilizar a configuração original?"
-		grid start -rowColumn 2
-			grid colStart
-				button -buttonType primary -buttonText $"Original" -run "change-plasma-theme --apply ${desktop} clean"
-		    grid colEnd
-			grid colStart
-				button -buttonType primary -buttonText $"Restaurar" -run "change-plasma-theme --apply ${desktop}"
-		    grid colEnd
-	    grid end
+		if [ -d "$HOME/.kdebiglinux/${desktop}" ];then
+			echo $"Você já utilizou esse desktop antes, deseja restaurar sua personalização ou utilizar a configuração original?"
+			modal footerStart
+				grid start -rowColumn 2
+					grid colStart
+						button -buttonType primary -buttonText $"Original" -run "change-plasma-theme --apply ${desktop} clean"
+				    grid colEnd
+					grid colStart
+						button -buttonType primary -buttonText $"Restaurar" -run "change-plasma-theme --apply ${desktop}"
+				    grid colEnd
+			    grid end
+		    modal footerEnd
+	    elif [ "$(cat "$HOME"/.kdebiglinux/lastused)" = "$desktop" ];then
+		    echo $"Esse desktop está em uso, deseja restaurar o original?"
+		    modal footerStart
+			    grid start -rowColumn 1
+				    grid colStart
+						button -buttonType primary -buttonText $"Restaurar Original" -run "change-plasma-theme --apply ${desktop} clean"
+				    grid colEnd
+			    grid end
+		    modal footerEnd
+	    else
+		    echo $"Voce deseja trocar o Desktop?"
+		    modal footerStart
+			    grid start -rowColumn 1
+					grid colStart
+						button -buttonType primary -buttonText $"Trocar" -run "change-plasma-theme --apply ${desktop} clean"
+				    grid colEnd
+			    grid end
+		    modal footerEnd
+	    fi
     modal end
-    
-
 done
 grid end
 

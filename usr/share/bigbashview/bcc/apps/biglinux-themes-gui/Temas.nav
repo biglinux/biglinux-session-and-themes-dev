@@ -15,7 +15,7 @@ grid start -rowColumn 4
 
 for i in "${temas[@]}"; do
 	tema=$i
-	if [ "$(cat $HOME/.big_desktop_theme)" = "${tema}" ];then
+	if [ "$(cat "$HOME/.big_desktop_theme")" = "${tema}" ];then
 		checked="-iconCheck icons/checked.svg"
 	else
 		checked=

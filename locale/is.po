@@ -195,6 +195,18 @@ msgstr ""
 "Hefur þú notað þetta skjáborð áður, viltu endurheimta aðlögun þess eða nota upprunalegu "
 "stillingarnar?"
 
+msgid "Esse desktop está em uso, deseja restaurar o original?"
+msgstr "Þetta skjáborð er í notkun, viltu endurheimta frumritið?"
+
+msgid "Restaurar Original"
+msgstr "Endurheimta upprunalega"
+
+msgid "Voce deseja trocar o Desktop?"
+msgstr "Viltu breyta skjáborðinu?"
+
+msgid "Trocar"
+msgstr "vöruskipti"
+
 msgid "Desempenho em modo normal!"
 msgstr "Flutningur í venjulegri stillingu!"
 

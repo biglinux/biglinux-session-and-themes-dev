@@ -266,6 +266,22 @@ msgstr ""
 "utilizar a configuração original?"
 
 #
+msgid "Esse desktop está em uso, deseja restaurar o original?"
+msgstr "Esse desktop está em uso, deseja restaurar o original?"
+
+#
+msgid "Restaurar Original"
+msgstr "Restaurar Original"
+
+#
+msgid "Voce deseja trocar o Desktop?"
+msgstr "Voce deseja trocar o Desktop?"
+
+#
+msgid "Trocar"
+msgstr "Trocar"
+
+#
 msgid "Desempenho em modo normal!"
 msgstr "Desempenho em modo normal!"
 

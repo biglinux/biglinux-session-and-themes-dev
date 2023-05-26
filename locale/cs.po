@@ -195,6 +195,18 @@ msgid ""
 "original?"
 msgstr "Používali jste tuto plochu dříve, chcete obnovit její přizpůsobení nebo použít původní konfiguraci?"
 
+msgid "Esse desktop está em uso, deseja restaurar o original?"
+msgstr "Tato plocha se používá, chcete obnovit původní?"
+
+msgid "Restaurar Original"
+msgstr "Obnovit originál"
+
+msgid "Voce deseja trocar o Desktop?"
+msgstr "Chcete změnit plochu?"
+
+msgid "Trocar"
+msgstr "Výměnný obchod"
+
 msgid "Desempenho em modo normal!"
 msgstr "Výkon v normálním režimu!"
 

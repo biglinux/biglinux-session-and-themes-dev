@@ -189,6 +189,18 @@ msgid ""
 "original?"
 msgstr "이전에 이 데스크톱을 사용한 적이 있으며 사용자 지정을 복원하시겠습니까, 아니면 원래 구성을 사용하시겠습니까?"
 
+msgid "Esse desktop está em uso, deseja restaurar o original?"
+msgstr "이 데스크탑이 사용 중인데 원본을 복원하시겠습니까?"
+
+msgid "Restaurar Original"
+msgstr "원본 복원"
+
+msgid "Voce deseja trocar o Desktop?"
+msgstr "바탕 화면을 변경하시겠습니까?"
+
+msgid "Trocar"
+msgstr "교환"
+
 msgid "Desempenho em modo normal!"
 msgstr "일반 모드에서의 성능!"
 

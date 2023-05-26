@@ -197,6 +197,18 @@ msgstr ""
 "Už ste už používali túto pracovnú plochu, chcete obnoviť jej prispôsobenie alebo použiť pôvodnú "
 "konfiguráciu?"
 
+msgid "Esse desktop está em uso, deseja restaurar o original?"
+msgstr "Táto pracovná plocha sa používa, chcete obnoviť originál?"
+
+msgid "Restaurar Original"
+msgstr "Obnoviť originál"
+
+msgid "Voce deseja trocar o Desktop?"
+msgstr "Chcete zmeniť pracovnú plochu?"
+
+msgid "Trocar"
+msgstr "Výmenný obchod"
+
 msgid "Desempenho em modo normal!"
 msgstr "Výkon v normálnom režime!"
 

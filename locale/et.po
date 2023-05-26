@@ -197,6 +197,18 @@ msgstr ""
 "Kas olete seda töölauda varem kasutanud, kas soovite selle kohandamise taastada või kasutada algset "
 "konfiguratsiooni?"
 
+msgid "Esse desktop está em uso, deseja restaurar o original?"
+msgstr "See töölaud on kasutusel, kas soovite originaali taastada?"
+
+msgid "Restaurar Original"
+msgstr "Taasta originaal"
+
+msgid "Voce deseja trocar o Desktop?"
+msgstr "Kas soovite töölauda muuta?"
+
+msgid "Trocar"
+msgstr "Vahetuskaup"
+
 msgid "Desempenho em modo normal!"
 msgstr "Tulemuslikkus tavarežiimis!"
 

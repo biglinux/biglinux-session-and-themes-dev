@@ -197,6 +197,18 @@ msgstr ""
 "Bu masaüstünü daha önce kullandınız mı, özelleştirmesini geri yüklemek mi yoksa orijinal "
 "yapılandırmayı kullanmak mı istiyorsunuz?"
 
+msgid "Esse desktop está em uso, deseja restaurar o original?"
+msgstr "Bu masaüstü kullanımda, orijinali geri yüklemek istiyor musunuz?"
+
+msgid "Restaurar Original"
+msgstr "Orijinali Geri Yükle"
+
+msgid "Voce deseja trocar o Desktop?"
+msgstr "Masaüstünü değiştirmek istiyor musunuz?"
+
+msgid "Trocar"
+msgstr "Takas"
+
 msgid "Desempenho em modo normal!"
 msgstr "Normal modda performans!"
 

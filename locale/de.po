@@ -199,6 +199,18 @@ msgstr ""
 "Haben Sie diesen Desktop schon einmal verwendet, möchten Sie seine Anpassung wiederherstellen oder "
 "die ursprüngliche Konfiguration verwenden?"
 
+msgid "Esse desktop está em uso, deseja restaurar o original?"
+msgstr "Dieser Desktop ist in Gebrauch, möchten Sie das Original wiederherstellen?"
+
+msgid "Restaurar Original"
+msgstr "Original wiederherstellen"
+
+msgid "Voce deseja trocar o Desktop?"
+msgstr "Möchten Sie den Desktop ändern?"
+
+msgid "Trocar"
+msgstr "Tauschhandel"
+
 msgid "Desempenho em modo normal!"
 msgstr "Leistung im normalen Modus!"
 

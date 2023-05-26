@@ -197,6 +197,18 @@ msgstr ""
 "Használta már ezt az asztalt, vissza szeretné állítani a testreszabását, vagy az eredeti "
 "konfigurációt szeretné használni?"
 
+msgid "Esse desktop está em uso, deseja restaurar o original?"
+msgstr "Ez az asztal használatban van, vissza szeretné állítani az eredetit?"
+
+msgid "Restaurar Original"
+msgstr "Eredeti visszaállítása"
+
+msgid "Voce deseja trocar o Desktop?"
+msgstr "Meg akarja változtatni az asztalt?"
+
+msgid "Trocar"
+msgstr "Cserekereskedelem"
+
 msgid "Desempenho em modo normal!"
 msgstr "Teljesítmény normál üzemmódban!"
 

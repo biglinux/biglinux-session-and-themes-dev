@@ -189,6 +189,18 @@ msgid ""
 "original?"
 msgstr "האם השתמשת בשולחן עבודה זה בעבר, האם ברצונך לשחזר את ההתאמה האישית שלו או להשתמש בתצורה המקורית?"
 
+msgid "Esse desktop está em uso, deseja restaurar o original?"
+msgstr "שולחן עבודה זה נמצא בשימוש, האם ברצונך לשחזר את המקור?"
+
+msgid "Restaurar Original"
+msgstr "שחזור המקור"
+
+msgid "Voce deseja trocar o Desktop?"
+msgstr "האם ברצונך לשנות את שולחן העבודה?"
+
+msgid "Trocar"
+msgstr "סחר חליפין"
+
 msgid "Desempenho em modo normal!"
 msgstr "ביצועים במצב רגיל!"
 

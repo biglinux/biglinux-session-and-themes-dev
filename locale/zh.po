@@ -189,6 +189,18 @@ msgid ""
 "original?"
 msgstr "您以前是否使用过此桌面，是要恢复其自定义还是使用原始配置？"
 
+msgid "Esse desktop está em uso, deseja restaurar o original?"
+msgstr "此桌面正在使用中，是否要恢复原始桌面？"
+
+msgid "Restaurar Original"
+msgstr "恢复原始"
+
+msgid "Voce deseja trocar o Desktop?"
+msgstr "是否要更改桌面？"
+
+msgid "Trocar"
+msgstr "实物交易"
+
 msgid "Desempenho em modo normal!"
 msgstr "正常模式下的表现!"
 

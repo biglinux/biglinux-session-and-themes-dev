@@ -197,6 +197,18 @@ msgstr ""
 "Heb je dit bureaublad eerder gebruikt, wil je de aanpassing ervan herstellen of de oorspronkelijke "
 "configuratie gebruiken?"
 
+msgid "Esse desktop está em uso, deseja restaurar o original?"
+msgstr "Deze desktop is in gebruik, wil je het origineel herstellen?"
+
+msgid "Restaurar Original"
+msgstr "Origineel herstellen"
+
+msgid "Voce deseja trocar o Desktop?"
+msgstr "Wilt u het bureaublad wijzigen?"
+
+msgid "Trocar"
+msgstr "Ruilhandel"
+
 msgid "Desempenho em modo normal!"
 msgstr "Prestaties in de normale modus!"
 

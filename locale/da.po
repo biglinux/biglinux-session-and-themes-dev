@@ -197,6 +197,18 @@ msgstr ""
 "Har du brugt dette skrivebord før, vil du gendanne dets tilpasning eller bruge den originale "
 "konfiguration?"
 
+msgid "Esse desktop está em uso, deseja restaurar o original?"
+msgstr "Dette skrivebord er i brug, vil du gendanne originalen?"
+
+msgid "Restaurar Original"
+msgstr "Gendan original"
+
+msgid "Voce deseja trocar o Desktop?"
+msgstr "Vil du ændre skrivebordet?"
+
+msgid "Trocar"
+msgstr "Byttehandel"
+
 msgid "Desempenho em modo normal!"
 msgstr "Ydelse i normal tilstand!"
 

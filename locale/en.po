@@ -197,6 +197,18 @@ msgstr ""
 "Have you used this desktop before, do you want to restore its customization or use the original "
 "configuration?"
 
+msgid "Esse desktop está em uso, deseja restaurar o original?"
+msgstr "This desktop is in use, do you want to restore the original?"
+
+msgid "Restaurar Original"
+msgstr "Restore Original"
+
+msgid "Voce deseja trocar o Desktop?"
+msgstr "Do you want to change the Desktop?"
+
+msgid "Trocar"
+msgstr "Barter"
+
 msgid "Desempenho em modo normal!"
 msgstr "Performance in normal mode!"
 

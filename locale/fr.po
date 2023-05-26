@@ -199,6 +199,18 @@ msgstr ""
 "Avez-vous déjà utilisé ce bureau, souhaitez-vous restaurer sa personnalisation ou utiliser la "
 "configuration d’origine?"
 
+msgid "Esse desktop está em uso, deseja restaurar o original?"
+msgstr "Ce bureau est en cours d’utilisation, voulez-vous restaurer l’original?"
+
+msgid "Restaurar Original"
+msgstr "Restaurer l’original"
+
+msgid "Voce deseja trocar o Desktop?"
+msgstr "Voulez-vous changer le bureau?"
+
+msgid "Trocar"
+msgstr "Troc"
+
 msgid "Desempenho em modo normal!"
 msgstr "Performance en mode normal !"
 

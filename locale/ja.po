@@ -189,6 +189,18 @@ msgid ""
 "original?"
 msgstr "以前にこのデスクトップを使用したことがありますか、カスタマイズを復元しますか、それとも元の構成を使用しますか?"
 
+msgid "Esse desktop está em uso, deseja restaurar o original?"
+msgstr "このデスクトップは使用中ですが、元のデスクトップを復元しますか?"
+
+msgid "Restaurar Original"
+msgstr "オリジナルを復元"
+
+msgid "Voce deseja trocar o Desktop?"
+msgstr "デスクトップを変更しますか?"
+
+msgid "Trocar"
+msgstr "バーター"
+
 msgid "Desempenho em modo normal!"
 msgstr "ノーマルモードでのパフォーマンス!"
 

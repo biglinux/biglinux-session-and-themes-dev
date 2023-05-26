@@ -197,6 +197,18 @@ msgstr ""
 "¿Ha utilizado este escritorio antes, desea restaurar su personalización o utilizar la configuración "
 "original?"
 
+msgid "Esse desktop está em uso, deseja restaurar o original?"
+msgstr "Este escritorio está en uso, ¿desea restaurar el original?"
+
+msgid "Restaurar Original"
+msgstr "Restaurar original"
+
+msgid "Voce deseja trocar o Desktop?"
+msgstr "¿Desea cambiar el escritorio?"
+
+msgid "Trocar"
+msgstr "Trueque"
+
 msgid "Desempenho em modo normal!"
 msgstr "Rendimiento en modo normal!"
 

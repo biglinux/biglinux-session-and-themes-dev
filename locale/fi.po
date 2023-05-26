@@ -197,6 +197,18 @@ msgstr ""
 "Oletko käyttänyt tätä työpöytää aiemmin, haluatko palauttaa sen mukautuksen vai käyttää "
 "alkuperäistä kokoonpanoa?"
 
+msgid "Esse desktop está em uso, deseja restaurar o original?"
+msgstr "Tämä työpöytä on käytössä, haluatko palauttaa alkuperäisen?"
+
+msgid "Restaurar Original"
+msgstr "Palauta alkuperäinen"
+
+msgid "Voce deseja trocar o Desktop?"
+msgstr "Haluatko vaihtaa työpöytää?"
+
+msgid "Trocar"
+msgstr "Vaihtokauppa"
+
 msgid "Desempenho em modo normal!"
 msgstr "Suorituskyky normaalitilassa!"
 

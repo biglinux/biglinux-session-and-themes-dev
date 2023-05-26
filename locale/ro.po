@@ -197,6 +197,18 @@ msgstr ""
 "Ați folosit acest desktop înainte, doriți să restaurați personalizarea acestuia sau să utilizați "
 "configurația originală?"
 
+msgid "Esse desktop está em uso, deseja restaurar o original?"
+msgstr "Acest desktop este în uz, doriți să restaurați originalul?"
+
+msgid "Restaurar Original"
+msgstr "Restaurare original"
+
+msgid "Voce deseja trocar o Desktop?"
+msgstr "Doriți să schimbați desktopul?"
+
+msgid "Trocar"
+msgstr "Barter"
+
 msgid "Desempenho em modo normal!"
 msgstr "Performanță în modul normal!"
 

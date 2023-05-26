@@ -197,6 +197,18 @@ msgstr ""
 "Har du använt det här skrivbordet tidigare, vill du återställa dess anpassning eller använda den "
 "ursprungliga konfigurationen?"
 
+msgid "Esse desktop está em uso, deseja restaurar o original?"
+msgstr "Det här skrivbordet används, vill du återställa originalet?"
+
+msgid "Restaurar Original"
+msgstr "Återställ original"
+
+msgid "Voce deseja trocar o Desktop?"
+msgstr "Vill du byta skrivbord?"
+
+msgid "Trocar"
+msgstr "Byteshandel"
+
 msgid "Desempenho em modo normal!"
 msgstr "Prestanda i normalt läge!"
 

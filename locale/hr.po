@@ -197,6 +197,18 @@ msgstr ""
 "Jeste li već koristili ovu radnu površinu, želite li vratiti njezinu prilagodbu ili koristiti "
 "izvornu konfiguraciju?"
 
+msgid "Esse desktop está em uso, deseja restaurar o original?"
+msgstr "Ova radna površina se koristi, želite li vratiti izvornik?"
+
+msgid "Restaurar Original"
+msgstr "Vrati izvornik"
+
+msgid "Voce deseja trocar o Desktop?"
+msgstr "Želite li promijeniti radnu površinu?"
+
+msgid "Trocar"
+msgstr "Barter"
+
 msgid "Desempenho em modo normal!"
 msgstr "Izvedba u normalnom načinu rada!"
 

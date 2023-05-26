@@ -197,6 +197,18 @@ msgstr ""
 "Използвали ли сте този работен плот преди, искате ли да възстановите неговата персонализация или да "
 "използвате оригиналната конфигурация?"
 
+msgid "Esse desktop está em uso, deseja restaurar o original?"
+msgstr "Този работен плот се използва, искате ли да възстановите оригинала?"
+
+msgid "Restaurar Original"
+msgstr "Възстанови оригинала"
+
+msgid "Voce deseja trocar o Desktop?"
+msgstr "Искате ли да промените работния плот?"
+
+msgid "Trocar"
+msgstr "Бартер"
+
 msgid "Desempenho em modo normal!"
 msgstr "Изпълнение в нормален режим!"
 

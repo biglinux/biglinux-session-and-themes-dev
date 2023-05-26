@@ -197,6 +197,18 @@ msgstr ""
 "Har du brukt dette skrivebordet før, vil du gjenopprette tilpasningen eller bruke den opprinnelige "
 "konfigurasjonen?"
 
+msgid "Esse desktop está em uso, deseja restaurar o original?"
+msgstr "Dette skrivebordet er i bruk, vil du gjenopprette originalen?"
+
+msgid "Restaurar Original"
+msgstr "Gjenopprett originalen"
+
+msgid "Voce deseja trocar o Desktop?"
+msgstr "Vil du endre skrivebordet?"
+
+msgid "Trocar"
+msgstr "Byttehandel"
+
 msgid "Desempenho em modo normal!"
 msgstr "Ytelse i normal modus!"
 

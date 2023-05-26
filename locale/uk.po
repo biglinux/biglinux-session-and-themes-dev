@@ -197,6 +197,18 @@ msgstr ""
 "Ви раніше користувалися цим робочим столом, хочете відновити його налаштування або використовувати "
 "початкову конфігурацію?"
 
+msgid "Esse desktop está em uso, deseja restaurar o original?"
+msgstr "Цей робочий стіл використовується, хочете відновити оригінал?"
+
+msgid "Restaurar Original"
+msgstr "Відновити оригінал"
+
+msgid "Voce deseja trocar o Desktop?"
+msgstr "Бажаєте змінити робочий стіл?"
+
+msgid "Trocar"
+msgstr "Бартер"
+
 msgid "Desempenho em modo normal!"
 msgstr "Продуктивність в оптимізованому режимі!"
 

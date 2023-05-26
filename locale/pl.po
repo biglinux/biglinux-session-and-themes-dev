@@ -197,6 +197,18 @@ msgstr ""
 "Czy korzystałeś wcześniej z tego pulpitu, czy chcesz przywrócić jego dostosowanie, czy użyć "
 "oryginalnej konfiguracji?"
 
+msgid "Esse desktop está em uso, deseja restaurar o original?"
+msgstr "Ten pulpit jest w użyciu, czy chcesz przywrócić oryginał?"
+
+msgid "Restaurar Original"
+msgstr "Przywróć oryginał"
+
+msgid "Voce deseja trocar o Desktop?"
+msgstr "Czy chcesz zmienić pulpit?"
+
+msgid "Trocar"
+msgstr "Barter"
+
 msgid "Desempenho em modo normal!"
 msgstr "Wydajność w trybie normalnym!"
 

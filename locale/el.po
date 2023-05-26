@@ -199,6 +199,18 @@ msgstr ""
 "Έχετε χρησιμοποιήσει αυτήν την επιφάνεια εργασίας στο παρελθόν, θέλετε να επαναφέρετε την "
 "προσαρμογή της ή να χρησιμοποιήσετε την αρχική διαμόρφωση;"
 
+msgid "Esse desktop está em uso, deseja restaurar o original?"
+msgstr "Αυτή η επιφάνεια εργασίας χρησιμοποιείται, θέλετε να επαναφέρετε το πρωτότυπο;"
+
+msgid "Restaurar Original"
+msgstr "Επαναφορά αρχικού"
+
+msgid "Voce deseja trocar o Desktop?"
+msgstr "Θέλετε να αλλάξετε την επιφάνεια εργασίας;"
+
+msgid "Trocar"
+msgstr "Αντιπραγματισμός"
+
 msgid "Desempenho em modo normal!"
 msgstr "Απόδοση σε κανονική λειτουργία!"
 

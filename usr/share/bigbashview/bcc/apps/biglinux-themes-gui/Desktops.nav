@@ -20,20 +20,20 @@ for i in "${desktops[@]}"; do
 	fi
 
 	grid colStart
-		cards -border 0 -shadow 0 -image Desktops/desktop-"${desktop}".svg $checked -iconCheckSize 22 -iconCheckPosY top -iconCheckPosX end -id "${desktop}" -imagePaddingX 3
+		cards -border 0 -shadow 0 -image Desktops/desktop-$desktop.svg $checked -iconCheckSize 22 -iconCheckPosY top -iconCheckPosX end -id $desktop -imagePaddingX 3
 	grid colEnd
 	
 	modal start -id "${i}" -title $"Configuração do Desktop"
 # 	    modal body -run Desktops/${i}.modal
-		if [ -d "$HOME/.kdebiglinux/${desktop}" ];then
+		if [ -d "$HOME/.kdebiglinux/$desktop" ];then
 			echo $"Você já utilizou esse desktop antes, deseja restaurar sua personalização ou utilizar a configuração original?"
 			modal footerStart
 				grid start -rowColumn 2
 					grid colStart
-						button -buttonType primary -buttonText $"Original" -run "change-plasma-theme --apply ${desktop} clean"
+						button -buttonType primary -buttonText $"Original" -run "change-plasma-theme --apply $desktop clean"
 				    grid colEnd
 					grid colStart
-						button -buttonType primary -buttonText $"Restaurar" -run "change-plasma-theme --apply ${desktop}"
+						button -buttonType primary -buttonText $"Restaurar" -run "change-plasma-theme --apply $desktop"
 				    grid colEnd
 			    grid end
 		    modal footerEnd
@@ -42,7 +42,7 @@ for i in "${desktops[@]}"; do
 		    modal footerStart
 			    grid start -rowColumn 1
 				    grid colStart
-						button -buttonType primary -buttonText $"Restaurar Original" -run "change-plasma-theme --apply ${desktop} clean"
+						button -buttonType primary -buttonText $"Restaurar Original" -run "change-plasma-theme --apply $desktop clean"
 				    grid colEnd
 			    grid end
 		    modal footerEnd
@@ -51,7 +51,7 @@ for i in "${desktops[@]}"; do
 		    modal footerStart
 			    grid start -rowColumn 1
 					grid colStart
-						button -buttonType primary -buttonText $"Trocar" -run "change-plasma-theme --apply ${desktop} clean"
+						button -buttonType primary -buttonText $"Trocar" -run "change-plasma-theme --apply $desktop clean"
 				    grid colEnd
 			    grid end
 		    modal footerEnd

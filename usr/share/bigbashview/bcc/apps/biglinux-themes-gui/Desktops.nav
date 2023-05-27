@@ -20,7 +20,7 @@ for i in "${desktops[@]}"; do
 	fi
 
 	grid colStart
-		cards -border 0 -shadow 0 -image Desktops/desktop-"${desktop}".svg "$checked" -iconCheckSize 22 -iconCheckPosY top -iconCheckPosX end -id "${desktop}" -imagePaddingX 3
+		cards -border 0 -shadow 0 -image Desktops/desktop-"${desktop}".svg $checked -iconCheckSize 22 -iconCheckPosY top -iconCheckPosX end -id "${desktop}" -imagePaddingX 3
 	grid colEnd
 	
 	modal start -id "${i}" -title $"Configuração do Desktop"
